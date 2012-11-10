@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e04596fc-4114-4996-97c5-27941f2a18fe" name="Ho Wai Yung@HOWAIYUNG-PC 2012-11-02 15:30:53" runUser="HoWaiYung-PC\Ho Wai Yung" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="19f1e08e-e37f-44cb-a353-ec143923a7f4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Ho Wai Yung_HOWAIYUNG-PC 2012-11-02 15_30_53" />
+  </TestSettings>
+  <Times creation="2012-11-02T15:30:53.6536424-06:00" queuing="2012-11-02T15:30:55.0047196-06:00" start="2012-11-02T15:30:55.0087199-06:00" finish="2012-11-02T15:30:55.5407503-06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FindNoKeywordAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="a629a122-196f-9169-0a2e-782ce464b595">
+      <Execution id="f680e141-1b07-4f18-be4b-6a783d16ced3" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindNoKeywordAuthor" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a629a122-196f-9169-0a2e-782ce464b595" executionId="f680e141-1b07-4f18-be4b-6a783d16ced3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f680e141-1b07-4f18-be4b-6a783d16ced3" testId="a629a122-196f-9169-0a2e-782ce464b595" testName="FindNoKeywordAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0108635" startTime="2012-11-02T15:30:55.0117200-06:00" endTime="2012-11-02T15:30:55.5217492-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f680e141-1b07-4f18-be4b-6a783d16ced3">
+    </UnitTestResult>
+  </Results>
+</TestRun>

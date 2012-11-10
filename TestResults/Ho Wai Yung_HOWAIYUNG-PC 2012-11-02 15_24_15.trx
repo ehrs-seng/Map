@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1fe81d42-a9de-44b0-b9d8-8a180e0053ba" name="Ho Wai Yung@HOWAIYUNG-PC 2012-11-02 15:24:15" runUser="HoWaiYung-PC\Ho Wai Yung" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="19f1e08e-e37f-44cb-a353-ec143923a7f4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Ho Wai Yung_HOWAIYUNG-PC 2012-11-02 15_24_15" />
+  </TestSettings>
+  <Times creation="2012-11-02T15:24:15.6578783-06:00" queuing="2012-11-02T15:24:16.5979321-06:00" start="2012-11-02T15:24:16.6109328-06:00" finish="2012-11-02T15:24:17.0739593-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="44" executed="44" passed="2" error="0" failed="42" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddAuthorNumericalAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="78f4d1d3-be89-6485-aaa1-6c2e5551717a">
+      <Execution id="3122a509-9ff0-4a41-9cd3-1ab21efc4356" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddAuthorNumericalAuthor" />
+    </UnitTest>
+    <UnitTest name="AddNumericalTitle" storage="f:\dropbox\map\map\bin\debug\map.dll" id="c06afa71-2f07-770f-d397-6497f0861191">
+      <Execution id="109a11c5-9784-49cd-85ae-622d9ee8dfa9" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNumericalTitle" />
+    </UnitTest>
+    <UnitTest name="AddNormalAbstract" storage="f:\dropbox\map\map\bin\debug\map.dll" id="4bea2438-3bd3-0aa0-a128-7c8e7bdf72c1">
+      <Execution id="1f0ed44f-1a58-41f8-81b7-b3626a26db44" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNormalAbstract" />
+    </UnitTest>
+    <UnitTest name="FindNoKeywordAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="a629a122-196f-9169-0a2e-782ce464b595">
+      <Execution id="45b0dc96-12c8-453f-b40d-96dab906c5dc" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindNoKeywordAuthor" />
+    </UnitTest>
+    <UnitTest name="AddAlphanumericUniqueKeyword" storage="f:\dropbox\map\map\bin\debug\map.dll" id="68889c4c-4f61-56af-303c-fa6434c9be48">
+      <Execution id="ca7ddf84-289d-4428-9eaf-99d54ed042e6" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddAlphanumericUniqueKeyword" />
+    </UnitTest>
+    <UnitTest name="AddNullStringTitle" storage="f:\dropbox\map\map\bin\debug\map.dll" id="267a657e-ae23-c41f-c328-502483d45d28">
+      <Execution id="2076aea9-4707-4b51-953f-a1688cb33a70" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNullStringTitle" />
+    </UnitTest>
+    <UnitTest name="SearchProblem_NullKeywordGiven" storage="f:\dropbox\map\map\bin\debug\map.dll" id="af484430-6570-c227-4a07-935cbbb409db">
+      <Execution id="2ab95d18-b892-4118-a746-fe678a9abe5a" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.SearchPapersWKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchProblem_NullKeywordGiven" />
+    </UnitTest>
+    <UnitTest name="AddAlphanumericTitle" storage="f:\dropbox\map\map\bin\debug\map.dll" id="6a24927b-311e-5ec4-afa3-631f4f3ed64f">
+      <Execution id="2a0e209e-1dac-4cec-9da9-62c4b58b85e5" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddAlphanumericTitle" />
+    </UnitTest>
+    <UnitTest name="NullAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="7b3bd826-2935-d997-c1b7-02ca9a4a707a">
+      <Execution id="a0ca9ffb-52d9-4424-9618-51f20f7a62bc" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullAuthor" />
+    </UnitTest>
+    <UnitTest name="FindPartialNumericalAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="7f1db94b-22b0-30cf-3893-fa8638658470">
+      <Execution id="b7606b28-3298-49a5-b3e6-41822e1f8877" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindPartialNumericalAuthor" />
+    </UnitTest>
+    <UnitTest name="SearchNormal_ExistingKeyword_SinglePaper" storage="f:\dropbox\map\map\bin\debug\map.dll" id="25cf3559-68a7-4c93-4725-e571ad02e3e7">
+      <Execution id="79656047-c6ae-4b17-8571-7a26ddef008c" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.SearchPapersWKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchNormal_ExistingKeyword_SinglePaper" />
+    </UnitTest>
+    <UnitTest name="SearchNormal_NonExistingKeyword" storage="f:\dropbox\map\map\bin\debug\map.dll" id="bb18676d-377c-a4ae-690a-6c4a8f00aa46">
+      <Execution id="7a02b897-c0c0-48eb-8784-62a2f062f728" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.SearchPapersWKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchNormal_NonExistingKeyword" />
+    </UnitTest>
+    <UnitTest name="AddNullStringKeyword" storage="f:\dropbox\map\map\bin\debug\map.dll" id="248afc99-486e-4088-6a24-ffcee580f3a7">
+      <Execution id="60409081-5392-43e5-b34b-f938d9ddf0e4" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNullStringKeyword" />
+    </UnitTest>
+    <UnitTest name="AddMoreThanFourDigitYear" storage="f:\dropbox\map\map\bin\debug\map.dll" id="8953ab0f-d9d6-7dc3-9fc6-6ca918d9894b">
+      <Execution id="3f0d5dce-5b4f-48ca-8006-c855a8af5846" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddMoreThanFourDigitYear" />
+    </UnitTest>
+    <UnitTest name="AddEmptyStringTitle" storage="f:\dropbox\map\map\bin\debug\map.dll" id="cf1bd0a7-ba2a-cfcf-0db4-f40cc25e59f3">
+      <Execution id="581e5bec-e862-4de7-a20c-47f371bd53da" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddEmptyStringTitle" />
+    </UnitTest>
+    <UnitTest name="AddNumericalAbstract" storage="f:\dropbox\map\map\bin\debug\map.dll" id="1d291408-4667-3a4b-5dfb-c1aebbcb6af6">
+      <Execution id="504eacbc-acde-41b3-8ed2-9cc24653a42d" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNumericalAbstract" />
+    </UnitTest>
+    <UnitTest name="AddEmptyStringAbstract" storage="f:\dropbox\map\map\bin\debug\map.dll" id="4e1971b5-00e6-253b-0f9f-05a2c882e771">
+      <Execution id="62a9f54b-0568-4025-b8f5-b38a5a3338b8" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddEmptyStringAbstract" />
+    </UnitTest>
+    <UnitTest name="SearchProblem_EmptyDatabase" storage="f:\dropbox\map\map\bin\debug\map.dll" id="f88b0f97-6095-93ab-4570-ffad36b75fd0">
+      <Execution id="e7a189de-ef5b-421d-9785-1226e2c157c4" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.SearchPapersWKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchProblem_EmptyDatabase" />
+    </UnitTest>
+    <UnitTest name="AddDuplicateKeyword" storage="f:\dropbox\map\map\bin\debug\map.dll" id="a33351ea-6262-62cb-6e29-5d799198865f">
+      <Execution id="dd1462b0-894d-414d-b48c-7132bd16bc09" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddDuplicateKeyword" />
+    </UnitTest>
+    <UnitTest name="FindNormalAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="c61b5fbd-1990-718e-6b92-82f56b46c76a">
+      <Execution id="d6acda10-66ea-4cd1-a19e-d4fb4c349ea0" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindNormalAuthor" />
+    </UnitTest>
+    <UnitTest name="TabAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="ebe59462-0919-d773-41c7-20b1f87e0c62">
+      <Execution id="39abd59a-3336-4d1c-b3ea-0c8552ae11fd" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TabAuthor" />
+    </UnitTest>
+    <UnitTest name="AddNormalUniqueKeyword" storage="f:\dropbox\map\map\bin\debug\map.dll" id="9834602e-83df-a9b9-5975-c498962fa4b4">
+      <Execution id="ff679cfc-5d10-4836-bda2-79a4c8def6f1" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNormalUniqueKeyword" />
+    </UnitTest>
+    <UnitTest name="AddNormalAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="2f7e5ec9-b761-a5a2-2844-4c787d4cec40">
+      <Execution id="3872b148-1eb1-42a0-9bc6-a032fe986092" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNormalAuthor" />
+    </UnitTest>
+    <UnitTest name="AddNegativeYear" storage="f:\dropbox\map\map\bin\debug\map.dll" id="4d7af9cf-d876-45d9-06be-1182d47cf877">
+      <Execution id="3826ed0e-c4a9-4461-a773-9f3e976f5a0e" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNegativeYear" />
+    </UnitTest>
+    <UnitTest name="UnicodeAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="de8c182f-b223-ca86-caf8-d808945a3a91">
+      <Execution id="d29786f0-febd-43dd-88a8-a02b7cda5f61" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UnicodeAuthor" />
+    </UnitTest>
+    <UnitTest name="SearchProblem_EmptyKeywordGiven" storage="f:\dropbox\map\map\bin\debug\map.dll" id="49657f0b-0389-ebf1-d8fe-4e4d913952c9">
+      <Execution id="12cfc536-753b-464c-95a1-fdf1a4a8e477" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.SearchPapersWKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchProblem_EmptyKeywordGiven" />
+    </UnitTest>
+    <UnitTest name="FindPartialUnicodeAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="401fd3f5-883b-6806-028c-ee2f9d46a707">
+      <Execution id="e8e874ab-8a69-4db4-ab82-ad8ac7d24d47" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindPartialUnicodeAuthor" />
+    </UnitTest>
+    <UnitTest name="AddNumericalKeyword" storage="f:\dropbox\map\map\bin\debug\map.dll" id="a3da25ba-3dfd-42b7-2d2b-f031c0bacd59">
+      <Execution id="5dbf2c68-38e3-4840-8768-96aa2c6568bf" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNumericalKeyword" />
+    </UnitTest>
+    <UnitTest name="emptyAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="47c87be3-6997-cb09-ee47-e5831347fc33">
+      <Execution id="c91e544a-260c-47b5-9947-6aae30f8d2e0" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="emptyAuthor" />
+    </UnitTest>
+    <UnitTest name="FindNonExistingAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="748dc392-9274-c2c3-1136-a6594e65bcfb">
+      <Execution id="927a656f-a048-4394-80aa-ab6e86225f89" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindNonExistingAuthor" />
+    </UnitTest>
+    <UnitTest name="AddNormalTitle" storage="f:\dropbox\map\map\bin\debug\map.dll" id="0dbc954f-88fa-593e-d914-26df3336519d">
+      <Execution id="816be99d-f0dd-43b7-ab7c-405cba6043fc" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNormalTitle" />
+    </UnitTest>
+    <UnitTest name="SearchNormal_ExistingKeyword_MultiplePapers" storage="f:\dropbox\map\map\bin\debug\map.dll" id="78c22366-7126-37de-d3a3-f289174c28b4">
+      <Execution id="62307230-bf8d-4c37-92ca-88e6812c931e" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.SearchPapersWKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchNormal_ExistingKeyword_MultiplePapers" />
+    </UnitTest>
+    <UnitTest name="AddEmptyStringAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="3dd49a30-2146-1b41-47f1-c0568797f0ad">
+      <Execution id="7429c0eb-e4ad-4c65-9619-5d3dff9a5367" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddEmptyStringAuthor" />
+    </UnitTest>
+    <UnitTest name="AddAuthorNullStringAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="392d1eb5-82bb-ac02-d5b1-27f1ba3ecee2">
+      <Execution id="066549c8-bbd5-4af2-8743-2c9a33785837" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddAuthorNullStringAuthor" />
+    </UnitTest>
+    <UnitTest name="AddAlphanumericAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="337dc798-7d3e-2e4d-9ce1-6ea363bf1ba8">
+      <Execution id="8e594f01-0386-461c-9a0c-b4a182c55d2d" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddAlphanumericAuthor" />
+    </UnitTest>
+    <UnitTest name="AddAlphanumericAbstract" storage="f:\dropbox\map\map\bin\debug\map.dll" id="37aec174-09d0-ad29-f0c0-2cc14c27bb7d">
+      <Execution id="a77bc325-ff2f-4979-a126-08104856cc6c" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddAlphanumericAbstract" />
+    </UnitTest>
+    <UnitTest name="FindAllNumericalAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="9c148ebc-5ce5-69f8-94c2-a363b6b499cf">
+      <Execution id="5ad8dfc8-63f6-46cd-a5ed-592107271463" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindAllNumericalAuthor" />
+    </UnitTest>
+    <UnitTest name="RemoveNormalUniqueKeyword" storage="f:\dropbox\map\map\bin\debug\map.dll" id="854266d0-8eb4-f021-1b4e-cabb7a37e4e9">
+      <Execution id="b4830d0d-5075-4cdb-bca5-5898df2c53d7" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveNormalUniqueKeyword" />
+    </UnitTest>
+    <UnitTest name="SearchProblem_NullDatabase" storage="f:\dropbox\map\map\bin\debug\map.dll" id="b62d274e-24fb-61e6-6c74-6539a7114162">
+      <Execution id="80c81154-58b7-4ce8-8f22-b52602dc767f" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.SearchPapersWKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchProblem_NullDatabase" />
+    </UnitTest>
+    <UnitTest name="AddEmptyStringKeyword" storage="f:\dropbox\map\map\bin\debug\map.dll" id="a78f5112-68fe-7337-9015-2fd177eb0e6e">
+      <Execution id="d045adce-b0ba-4f4a-b44a-2e059da01e8f" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddEmptyStringKeyword" />
+    </UnitTest>
+    <UnitTest name="AddNullAbstract" storage="f:\dropbox\map\map\bin\debug\map.dll" id="5277dbba-7428-9a5c-2cb4-92e09a85fdd0">
+      <Execution id="22c7b129-fd18-4648-bf60-3869eccdeb3c" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNullAbstract" />
+    </UnitTest>
+    <UnitTest name="SpaceAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="7b94a73f-3b57-c3f4-7f9b-558acb4a87b2">
+      <Execution id="2dcfec1a-641b-4e50-bca5-1adc193b5082" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SpaceAuthor" />
+    </UnitTest>
+    <UnitTest name="AddZeroYear" storage="f:\dropbox\map\map\bin\debug\map.dll" id="e6daca45-d31d-d05e-07d8-5d1d6e220219">
+      <Execution id="6cfeb223-3e22-44da-ac0f-847a5137e641" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddZeroYear" />
+    </UnitTest>
+    <UnitTest name="AddNormalYear" storage="f:\dropbox\map\map\bin\debug\map.dll" id="6b363e6b-6289-e0ea-3146-de3ddc6b3d24">
+      <Execution id="2d01f23e-de2b-4d6e-8e74-c97f2f8530e8" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNormalYear" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0dbc954f-88fa-593e-d914-26df3336519d" executionId="816be99d-f0dd-43b7-ab7c-405cba6043fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d291408-4667-3a4b-5dfb-c1aebbcb6af6" executionId="504eacbc-acde-41b3-8ed2-9cc24653a42d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="248afc99-486e-4088-6a24-ffcee580f3a7" executionId="60409081-5392-43e5-b34b-f938d9ddf0e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25cf3559-68a7-4c93-4725-e571ad02e3e7" executionId="79656047-c6ae-4b17-8571-7a26ddef008c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="267a657e-ae23-c41f-c328-502483d45d28" executionId="2076aea9-4707-4b51-953f-a1688cb33a70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f7e5ec9-b761-a5a2-2844-4c787d4cec40" executionId="3872b148-1eb1-42a0-9bc6-a032fe986092" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="337dc798-7d3e-2e4d-9ce1-6ea363bf1ba8" executionId="8e594f01-0386-461c-9a0c-b4a182c55d2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37aec174-09d0-ad29-f0c0-2cc14c27bb7d" executionId="a77bc325-ff2f-4979-a126-08104856cc6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="392d1eb5-82bb-ac02-d5b1-27f1ba3ecee2" executionId="066549c8-bbd5-4af2-8743-2c9a33785837" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3dd49a30-2146-1b41-47f1-c0568797f0ad" executionId="7429c0eb-e4ad-4c65-9619-5d3dff9a5367" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="401fd3f5-883b-6806-028c-ee2f9d46a707" executionId="e8e874ab-8a69-4db4-ab82-ad8ac7d24d47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47c87be3-6997-cb09-ee47-e5831347fc33" executionId="c91e544a-260c-47b5-9947-6aae30f8d2e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49657f0b-0389-ebf1-d8fe-4e4d913952c9" executionId="12cfc536-753b-464c-95a1-fdf1a4a8e477" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4bea2438-3bd3-0aa0-a128-7c8e7bdf72c1" executionId="1f0ed44f-1a58-41f8-81b7-b3626a26db44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d7af9cf-d876-45d9-06be-1182d47cf877" executionId="3826ed0e-c4a9-4461-a773-9f3e976f5a0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e1971b5-00e6-253b-0f9f-05a2c882e771" executionId="62a9f54b-0568-4025-b8f5-b38a5a3338b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5277dbba-7428-9a5c-2cb4-92e09a85fdd0" executionId="22c7b129-fd18-4648-bf60-3869eccdeb3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68889c4c-4f61-56af-303c-fa6434c9be48" executionId="ca7ddf84-289d-4428-9eaf-99d54ed042e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a24927b-311e-5ec4-afa3-631f4f3ed64f" executionId="2a0e209e-1dac-4cec-9da9-62c4b58b85e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b363e6b-6289-e0ea-3146-de3ddc6b3d24" executionId="2d01f23e-de2b-4d6e-8e74-c97f2f8530e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="748dc392-9274-c2c3-1136-a6594e65bcfb" executionId="927a656f-a048-4394-80aa-ab6e86225f89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78c22366-7126-37de-d3a3-f289174c28b4" executionId="62307230-bf8d-4c37-92ca-88e6812c931e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78f4d1d3-be89-6485-aaa1-6c2e5551717a" executionId="3122a509-9ff0-4a41-9cd3-1ab21efc4356" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b3bd826-2935-d997-c1b7-02ca9a4a707a" executionId="a0ca9ffb-52d9-4424-9618-51f20f7a62bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b94a73f-3b57-c3f4-7f9b-558acb4a87b2" executionId="2dcfec1a-641b-4e50-bca5-1adc193b5082" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f1db94b-22b0-30cf-3893-fa8638658470" executionId="b7606b28-3298-49a5-b3e6-41822e1f8877" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="854266d0-8eb4-f021-1b4e-cabb7a37e4e9" executionId="b4830d0d-5075-4cdb-bca5-5898df2c53d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8953ab0f-d9d6-7dc3-9fc6-6ca918d9894b" executionId="3f0d5dce-5b4f-48ca-8006-c855a8af5846" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9834602e-83df-a9b9-5975-c498962fa4b4" executionId="ff679cfc-5d10-4836-bda2-79a4c8def6f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c148ebc-5ce5-69f8-94c2-a363b6b499cf" executionId="5ad8dfc8-63f6-46cd-a5ed-592107271463" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a33351ea-6262-62cb-6e29-5d799198865f" executionId="dd1462b0-894d-414d-b48c-7132bd16bc09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3da25ba-3dfd-42b7-2d2b-f031c0bacd59" executionId="5dbf2c68-38e3-4840-8768-96aa2c6568bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a629a122-196f-9169-0a2e-782ce464b595" executionId="45b0dc96-12c8-453f-b40d-96dab906c5dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a78f5112-68fe-7337-9015-2fd177eb0e6e" executionId="d045adce-b0ba-4f4a-b44a-2e059da01e8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af484430-6570-c227-4a07-935cbbb409db" executionId="2ab95d18-b892-4118-a746-fe678a9abe5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b62d274e-24fb-61e6-6c74-6539a7114162" executionId="80c81154-58b7-4ce8-8f22-b52602dc767f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb18676d-377c-a4ae-690a-6c4a8f00aa46" executionId="7a02b897-c0c0-48eb-8784-62a2f062f728" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c06afa71-2f07-770f-d397-6497f0861191" executionId="109a11c5-9784-49cd-85ae-622d9ee8dfa9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c61b5fbd-1990-718e-6b92-82f56b46c76a" executionId="d6acda10-66ea-4cd1-a19e-d4fb4c349ea0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf1bd0a7-ba2a-cfcf-0db4-f40cc25e59f3" executionId="581e5bec-e862-4de7-a20c-47f371bd53da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de8c182f-b223-ca86-caf8-d808945a3a91" executionId="d29786f0-febd-43dd-88a8-a02b7cda5f61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6daca45-d31d-d05e-07d8-5d1d6e220219" executionId="6cfeb223-3e22-44da-ac0f-847a5137e641" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebe59462-0919-d773-41c7-20b1f87e0c62" executionId="39abd59a-3336-4d1c-b3ea-0c8552ae11fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f88b0f97-6095-93ab-4570-ffad36b75fd0" executionId="e7a189de-ef5b-421d-9785-1226e2c157c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="816be99d-f0dd-43b7-ab7c-405cba6043fc" testId="0dbc954f-88fa-593e-d914-26df3336519d" testName="AddNormalTitle" computerName="HOWAIYUNG-PC" duration="00:00:00.0209454" startTime="2012-11-02T15:24:16.6139330-06:00" endTime="2012-11-02T15:24:16.8079441-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="816be99d-f0dd-43b7-ab7c-405cba6043fc">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddNormalTitle threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setTitle(String expectedtitle) in F:\Dropbox\Map\Map\Paper.cs:line 27
+   at Map.AddPaperTests.AddNormalTitle() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="504eacbc-acde-41b3-8ed2-9cc24653a42d" testId="1d291408-4667-3a4b-5dfb-c1aebbcb6af6" testName="AddNumericalAbstract" computerName="HOWAIYUNG-PC" duration="00:00:00.0012926" startTime="2012-11-02T15:24:16.8099442-06:00" endTime="2012-11-02T15:24:16.8149445-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="504eacbc-acde-41b3-8ed2-9cc24653a42d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddNumericalAbstract threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setAbstract(String expectedabstract) in F:\Dropbox\Map\Map\Paper.cs:line 42
+   at Map.AddPaperTests.AddNumericalAbstract() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 205
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="60409081-5392-43e5-b34b-f938d9ddf0e4" testId="248afc99-486e-4088-6a24-ffcee580f3a7" testName="AddNullStringKeyword" computerName="HOWAIYUNG-PC" duration="00:00:00.0018964" startTime="2012-11-02T15:24:16.8169446-06:00" endTime="2012-11-02T15:24:16.8229449-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60409081-5392-43e5-b34b-f938d9ddf0e4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddKeywordTests.AddNullStringKeyword threw exception System.NotImplementedException, but exception System.ArgumentException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.addKeyword(String p) in F:\Dropbox\Map\Map\Paper.cs:line 12
+   at Map.AddKeywordTests.AddNullStringKeyword() in F:\Dropbox\Map\Map\AddKeywordTests.cs:line 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="79656047-c6ae-4b17-8571-7a26ddef008c" testId="25cf3559-68a7-4c93-4725-e571ad02e3e7" testName="SearchNormal_ExistingKeyword_SinglePaper" computerName="HOWAIYUNG-PC" duration="00:00:00.0013823" startTime="2012-11-02T15:24:16.8239450-06:00" endTime="2012-11-02T15:24:16.8289453-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79656047-c6ae-4b17-8571-7a26ddef008c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.SearchPapersWKeywordTests.SearchNormal_ExistingKeyword_SinglePaper threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.addKeyword(String p) in F:\Dropbox\Map\Map\Paper.cs:line 12
+   at Map.SearchPapersWKeywordTests.SearchNormal_ExistingKeyword_SinglePaper() in F:\Dropbox\Map\Map\SearchPapersWKeywordTests.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2076aea9-4707-4b51-953f-a1688cb33a70" testId="267a657e-ae23-c41f-c328-502483d45d28" testName="AddNullStringTitle" computerName="HOWAIYUNG-PC" duration="00:00:00.0012645" startTime="2012-11-02T15:24:16.8309454-06:00" endTime="2012-11-02T15:24:16.8349456-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2076aea9-4707-4b51-953f-a1688cb33a70">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddNullStringTitle threw exception System.NotImplementedException, but exception System.ArgumentException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setTitle(String expectedtitle) in F:\Dropbox\Map\Map\Paper.cs:line 27
+   at Map.AddPaperTests.AddNullStringTitle() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 61
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3872b148-1eb1-42a0-9bc6-a032fe986092" testId="2f7e5ec9-b761-a5a2-2844-4c787d4cec40" testName="AddNormalAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0012953" startTime="2012-11-02T15:24:16.8369457-06:00" endTime="2012-11-02T15:24:16.8419460-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3872b148-1eb1-42a0-9bc6-a032fe986092">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddNormalAuthor threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setAuthor(String expectedauthor) in F:\Dropbox\Map\Map\Paper.cs:line 32
+   at Map.AddPaperTests.AddNormalAuthor() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 72
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8e594f01-0386-461c-9a0c-b4a182c55d2d" testId="337dc798-7d3e-2e4d-9ce1-6ea363bf1ba8" testName="AddAlphanumericAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0011838" startTime="2012-11-02T15:24:16.8429461-06:00" endTime="2012-11-02T15:24:16.8479464-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e594f01-0386-461c-9a0c-b4a182c55d2d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddAlphanumericAuthor threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setAuthor(String expectedauthor) in F:\Dropbox\Map\Map\Paper.cs:line 32
+   at Map.AddPaperTests.AddAlphanumericAuthor() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 82
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a77bc325-ff2f-4979-a126-08104856cc6c" testId="37aec174-09d0-ad29-f0c0-2cc14c27bb7d" testName="AddAlphanumericAbstract" computerName="HOWAIYUNG-PC" duration="00:00:00.0011748" startTime="2012-11-02T15:24:16.8489464-06:00" endTime="2012-11-02T15:24:16.8539467-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a77bc325-ff2f-4979-a126-08104856cc6c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddAlphanumericAbstract threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setAbstract(String expectedabstract) in F:\Dropbox\Map\Map\Paper.cs:line 42
+   at Map.AddPaperTests.AddAlphanumericAbstract() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 184
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="066549c8-bbd5-4af2-8743-2c9a33785837" testId="392d1eb5-82bb-ac02-d5b1-27f1ba3ecee2" testName="AddAuthorNullStringAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0012212" startTime="2012-11-02T15:24:16.8549468-06:00" endTime="2012-11-02T15:24:16.8599471-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="066549c8-bbd5-4af2-8743-2c9a33785837">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddAuthorNullStringAuthor threw exception System.NotImplementedException, but exception System.ArgumentException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setAuthor(String expectedauthor) in F:\Dropbox\Map\Map\Paper.cs:line 32
+   at Map.AddPaperTests.AddAuthorNullStringAuthor() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 116
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7429c0eb-e4ad-4c65-9619-5d3dff9a5367" testId="3dd49a30-2146-1b41-47f1-c0568797f0ad" testName="AddEmptyStringAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0012333" startTime="2012-11-02T15:24:16.8619472-06:00" endTime="2012-11-02T15:24:16.8659474-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7429c0eb-e4ad-4c65-9619-5d3dff9a5367">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddEmptyStringAuthor threw exception System.NotImplementedException, but exception System.ArgumentException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setAuthor(String expectedauthor) in F:\Dropbox\Map\Map\Paper.cs:line 32
+   at Map.AddPaperTests.AddEmptyStringAuthor() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 94
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e8e874ab-8a69-4db4-ab82-ad8ac7d24d47" testId="401fd3f5-883b-6806-028c-ee2f9d46a707" testName="FindPartialUnicodeAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0016965" startTime="2012-11-02T15:24:16.8679475-06:00" endTime="2012-11-02T15:24:16.8719477-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8e874ab-8a69-4db4-ab82-ad8ac7d24d47">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.FindPartialUnicodeAuthor threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.FindPartialUnicodeAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c91e544a-260c-47b5-9947-6aae30f8d2e0" testId="47c87be3-6997-cb09-ee47-e5831347fc33" testName="emptyAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0012690" startTime="2012-11-02T15:24:16.8739479-06:00" endTime="2012-11-02T15:24:16.8779481-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c91e544a-260c-47b5-9947-6aae30f8d2e0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.emptyAuthor threw exception System.NullReferenceException, but exception System.ArgumentException was expected. Exception message: System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.emptyAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 199
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="12cfc536-753b-464c-95a1-fdf1a4a8e477" testId="49657f0b-0389-ebf1-d8fe-4e4d913952c9" testName="SearchProblem_EmptyKeywordGiven" computerName="HOWAIYUNG-PC" duration="00:00:00.0013542" startTime="2012-11-02T15:24:16.8799482-06:00" endTime="2012-11-02T15:24:16.8839484-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12cfc536-753b-464c-95a1-fdf1a4a8e477">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.SearchPapersWKeywordTests.SearchProblem_EmptyKeywordGiven threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.addKeyword(String p) in F:\Dropbox\Map\Map\Paper.cs:line 12
+   at Map.SearchPapersWKeywordTests.SearchProblem_EmptyKeywordGiven() in F:\Dropbox\Map\Map\SearchPapersWKeywordTests.cs:line 111
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1f0ed44f-1a58-41f8-81b7-b3626a26db44" testId="4bea2438-3bd3-0aa0-a128-7c8e7bdf72c1" testName="AddNormalAbstract" computerName="HOWAIYUNG-PC" duration="00:00:00.0011869" startTime="2012-11-02T15:24:16.8859485-06:00" endTime="2012-11-02T15:24:16.8899488-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f0ed44f-1a58-41f8-81b7-b3626a26db44">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddNormalAbstract threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setAbstract(String expectedabstract) in F:\Dropbox\Map\Map\Paper.cs:line 42
+   at Map.AddPaperTests.AddNormalAbstract() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 174
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3826ed0e-c4a9-4461-a773-9f3e976f5a0e" testId="4d7af9cf-d876-45d9-06be-1182d47cf877" testName="AddNegativeYear" computerName="HOWAIYUNG-PC" duration="00:00:00.0013051" startTime="2012-11-02T15:24:16.8919489-06:00" endTime="2012-11-02T15:24:16.8959491-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3826ed0e-c4a9-4461-a773-9f3e976f5a0e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddNegativeYear threw exception System.NotImplementedException, but exception System.ArgumentException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setYear(Int32 expectedyear) in F:\Dropbox\Map\Map\Paper.cs:line 37
+   at Map.AddPaperTests.AddNegativeYear() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 138
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="62a9f54b-0568-4025-b8f5-b38a5a3338b8" testId="4e1971b5-00e6-253b-0f9f-05a2c882e771" testName="AddEmptyStringAbstract" computerName="HOWAIYUNG-PC" duration="00:00:00.0012605" startTime="2012-11-02T15:24:16.8969492-06:00" endTime="2012-11-02T15:24:16.9019495-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62a9f54b-0568-4025-b8f5-b38a5a3338b8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddEmptyStringAbstract threw exception System.NotImplementedException, but exception System.ArgumentException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setAbstract(String expectedabstract) in F:\Dropbox\Map\Map\Paper.cs:line 42
+   at Map.AddPaperTests.AddEmptyStringAbstract() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 195
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="22c7b129-fd18-4648-bf60-3869eccdeb3c" testId="5277dbba-7428-9a5c-2cb4-92e09a85fdd0" testName="AddNullAbstract" computerName="HOWAIYUNG-PC" duration="00:00:00.0012279" startTime="2012-11-02T15:24:16.9029495-06:00" endTime="2012-11-02T15:24:16.9079498-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22c7b129-fd18-4648-bf60-3869eccdeb3c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddNullAbstract threw exception System.NotImplementedException, but exception System.ArgumentException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setAbstract(String expectedabstract) in F:\Dropbox\Map\Map\Paper.cs:line 42
+   at Map.AddPaperTests.AddNullAbstract() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 216
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ca7ddf84-289d-4428-9eaf-99d54ed042e6" testId="68889c4c-4f61-56af-303c-fa6434c9be48" testName="AddAlphanumericUniqueKeyword" computerName="HOWAIYUNG-PC" duration="00:00:00.0015059" startTime="2012-11-02T15:24:16.9089499-06:00" endTime="2012-11-02T15:24:16.9139501-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca7ddf84-289d-4428-9eaf-99d54ed042e6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddKeywordTests.AddAlphanumericUniqueKeyword threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.addKeyword(String p) in F:\Dropbox\Map\Map\Paper.cs:line 12
+   at Map.AddKeywordTests.AddAlphanumericUniqueKeyword() in F:\Dropbox\Map\Map\AddKeywordTests.cs:line 38
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2a0e209e-1dac-4cec-9da9-62c4b58b85e5" testId="6a24927b-311e-5ec4-afa3-631f4f3ed64f" testName="AddAlphanumericTitle" computerName="HOWAIYUNG-PC" duration="00:00:00.0011677" startTime="2012-11-02T15:24:16.9149502-06:00" endTime="2012-11-02T15:24:16.9189504-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a0e209e-1dac-4cec-9da9-62c4b58b85e5">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddAlphanumericTitle threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setTitle(String expectedtitle) in F:\Dropbox\Map\Map\Paper.cs:line 27
+   at Map.AddPaperTests.AddAlphanumericTitle() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 28
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2d01f23e-de2b-4d6e-8e74-c97f2f8530e8" testId="6b363e6b-6289-e0ea-3146-de3ddc6b3d24" testName="AddNormalYear" computerName="HOWAIYUNG-PC" duration="00:00:00.0011539" startTime="2012-11-02T15:24:16.9209505-06:00" endTime="2012-11-02T15:24:16.9249508-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d01f23e-de2b-4d6e-8e74-c97f2f8530e8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddNormalYear threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setYear(Int32 expectedyear) in F:\Dropbox\Map\Map\Paper.cs:line 37
+   at Map.AddPaperTests.AddNormalYear() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 127
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="927a656f-a048-4394-80aa-ab6e86225f89" testId="748dc392-9274-c2c3-1136-a6594e65bcfb" testName="FindNonExistingAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0007380" startTime="2012-11-02T15:24:16.9269509-06:00" endTime="2012-11-02T15:24:16.9309511-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="927a656f-a048-4394-80aa-ab6e86225f89">
+    </UnitTestResult>
+    <UnitTestResult executionId="62307230-bf8d-4c37-92ca-88e6812c931e" testId="78c22366-7126-37de-d3a3-f289174c28b4" testName="SearchNormal_ExistingKeyword_MultiplePapers" computerName="HOWAIYUNG-PC" duration="00:00:00.0013395" startTime="2012-11-02T15:24:16.9319512-06:00" endTime="2012-11-02T15:24:16.9359514-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62307230-bf8d-4c37-92ca-88e6812c931e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.SearchPapersWKeywordTests.SearchNormal_ExistingKeyword_MultiplePapers threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.addKeyword(String p) in F:\Dropbox\Map\Map\Paper.cs:line 12
+   at Map.SearchPapersWKeywordTests.SearchNormal_ExistingKeyword_MultiplePapers() in F:\Dropbox\Map\Map\SearchPapersWKeywordTests.cs:line 69
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3122a509-9ff0-4a41-9cd3-1ab21efc4356" testId="78f4d1d3-be89-6485-aaa1-6c2e5551717a" testName="AddAuthorNumericalAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0012070" startTime="2012-11-02T15:24:16.9379515-06:00" endTime="2012-11-02T15:24:16.9419517-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3122a509-9ff0-4a41-9cd3-1ab21efc4356">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddAuthorNumericalAuthor threw exception System.NotImplementedException, but exception System.ArgumentException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setAuthor(String expectedauthor) in F:\Dropbox\Map\Map\Paper.cs:line 32
+   at Map.AddPaperTests.AddAuthorNumericalAuthor() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 105
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a0ca9ffb-52d9-4424-9618-51f20f7a62bc" testId="7b3bd826-2935-d997-c1b7-02ca9a4a707a" testName="NullAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0004118" startTime="2012-11-02T15:24:16.9439519-06:00" endTime="2012-11-02T15:24:16.9479521-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0ca9ffb-52d9-4424-9618-51f20f7a62bc">
+    </UnitTestResult>
+    <UnitTestResult executionId="2dcfec1a-641b-4e50-bca5-1adc193b5082" testId="7b94a73f-3b57-c3f4-7f9b-558acb4a87b2" testName="SpaceAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0013319" startTime="2012-11-02T15:24:16.9489521-06:00" endTime="2012-11-02T15:24:16.9539524-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2dcfec1a-641b-4e50-bca5-1adc193b5082">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.SpaceAuthor threw exception System.NullReferenceException, but exception System.ArgumentException was expected. Exception message: System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.SpaceAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 181
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b7606b28-3298-49a5-b3e6-41822e1f8877" testId="7f1db94b-22b0-30cf-3893-fa8638658470" testName="FindPartialNumericalAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0014046" startTime="2012-11-02T15:24:16.9549525-06:00" endTime="2012-11-02T15:24:16.9589527-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7606b28-3298-49a5-b3e6-41822e1f8877">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.FindPartialNumericalAuthor threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.FindPartialNumericalAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 43
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b4830d0d-5075-4cdb-bca5-5898df2c53d7" testId="854266d0-8eb4-f021-1b4e-cabb7a37e4e9" testName="RemoveNormalUniqueKeyword" computerName="HOWAIYUNG-PC" duration="00:00:00.0012560" startTime="2012-11-02T15:24:16.9609528-06:00" endTime="2012-11-02T15:24:16.9649531-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4830d0d-5075-4cdb-bca5-5898df2c53d7">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddKeywordTests.RemoveNormalUniqueKeyword threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.removeKeyword(String expectedkeyword) in F:\Dropbox\Map\Map\Paper.cs:line 22
+   at Map.AddKeywordTests.RemoveNormalUniqueKeyword() in F:\Dropbox\Map\Map\AddKeywordTests.cs:line 57
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3f0d5dce-5b4f-48ca-8006-c855a8af5846" testId="8953ab0f-d9d6-7dc3-9fc6-6ca918d9894b" testName="AddMoreThanFourDigitYear" computerName="HOWAIYUNG-PC" duration="00:00:00.0011708" startTime="2012-11-02T15:24:16.9669532-06:00" endTime="2012-11-02T15:24:16.9709534-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f0d5dce-5b4f-48ca-8006-c855a8af5846">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddMoreThanFourDigitYear threw exception System.NotImplementedException, but exception System.ArgumentException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setYear(Int32 expectedyear) in F:\Dropbox\Map\Map\Paper.cs:line 37
+   at Map.AddPaperTests.AddMoreThanFourDigitYear() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 149
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ff679cfc-5d10-4836-bda2-79a4c8def6f1" testId="9834602e-83df-a9b9-5975-c498962fa4b4" testName="AddNormalUniqueKeyword" computerName="HOWAIYUNG-PC" duration="00:00:00.0013332" startTime="2012-11-02T15:24:16.9719535-06:00" endTime="2012-11-02T15:24:16.9759537-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff679cfc-5d10-4836-bda2-79a4c8def6f1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddKeywordTests.AddNormalUniqueKeyword threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.addKeyword(String p) in F:\Dropbox\Map\Map\Paper.cs:line 12
+   at Map.AddKeywordTests.AddNormalUniqueKeyword() in F:\Dropbox\Map\Map\AddKeywordTests.cs:line 19
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5ad8dfc8-63f6-46cd-a5ed-592107271463" testId="9c148ebc-5ce5-69f8-94c2-a363b6b499cf" testName="FindAllNumericalAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0013810" startTime="2012-11-02T15:24:16.9779538-06:00" endTime="2012-11-02T15:24:16.9819540-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ad8dfc8-63f6-46cd-a5ed-592107271463">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.FindAllNumericalAuthor threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.FindAllNumericalAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 64
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dd1462b0-894d-414d-b48c-7132bd16bc09" testId="a33351ea-6262-62cb-6e29-5d799198865f" testName="AddDuplicateKeyword" computerName="HOWAIYUNG-PC" duration="00:00:00.0011454" startTime="2012-11-02T15:24:16.9829541-06:00" endTime="2012-11-02T15:24:16.9869543-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd1462b0-894d-414d-b48c-7132bd16bc09">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddKeywordTests.AddDuplicateKeyword threw exception System.NotImplementedException, but exception System.ArgumentException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.addKeyword(String p) in F:\Dropbox\Map\Map\Paper.cs:line 12
+   at Map.AddKeywordTests.AddDuplicateKeyword() in F:\Dropbox\Map\Map\AddKeywordTests.cs:line 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5dbf2c68-38e3-4840-8768-96aa2c6568bf" testId="a3da25ba-3dfd-42b7-2d2b-f031c0bacd59" testName="AddNumericalKeyword" computerName="HOWAIYUNG-PC" duration="00:00:00.0012935" startTime="2012-11-02T15:24:16.9889544-06:00" endTime="2012-11-02T15:24:16.9929547-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5dbf2c68-38e3-4840-8768-96aa2c6568bf">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddKeywordTests.AddNumericalKeyword threw exception System.NotImplementedException, but exception System.ArgumentException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.addKeyword(String p) in F:\Dropbox\Map\Map\Paper.cs:line 12
+   at Map.AddKeywordTests.AddNumericalKeyword() in F:\Dropbox\Map\Map\AddKeywordTests.cs:line 92
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="45b0dc96-12c8-453f-b40d-96dab906c5dc" testId="a629a122-196f-9169-0a2e-782ce464b595" testName="FindNoKeywordAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0014729" startTime="2012-11-02T15:24:16.9939547-06:00" endTime="2012-11-02T15:24:16.9989550-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45b0dc96-12c8-453f-b40d-96dab906c5dc">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.FindNoKeywordAuthor threw exception System.NullReferenceException, but exception System.ArgumentException was expected. Exception message: System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.FindNoKeywordAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 117
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d045adce-b0ba-4f4a-b44a-2e059da01e8f" testId="a78f5112-68fe-7337-9015-2fd177eb0e6e" testName="AddEmptyStringKeyword" computerName="HOWAIYUNG-PC" duration="00:00:00.0011115" startTime="2012-11-02T15:24:16.9999551-06:00" endTime="2012-11-02T15:24:17.0039553-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d045adce-b0ba-4f4a-b44a-2e059da01e8f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddKeywordTests.AddEmptyStringKeyword threw exception System.NotImplementedException, but exception System.ArgumentException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.addKeyword(String p) in F:\Dropbox\Map\Map\Paper.cs:line 12
+   at Map.AddKeywordTests.AddEmptyStringKeyword() in F:\Dropbox\Map\Map\AddKeywordTests.cs:line 82
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2ab95d18-b892-4118-a746-fe678a9abe5a" testId="af484430-6570-c227-4a07-935cbbb409db" testName="SearchProblem_NullKeywordGiven" computerName="HOWAIYUNG-PC" duration="00:00:00.0011369" startTime="2012-11-02T15:24:17.0049554-06:00" endTime="2012-11-02T15:24:17.0089556-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ab95d18-b892-4118-a746-fe678a9abe5a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.SearchPapersWKeywordTests.SearchProblem_NullKeywordGiven threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.addKeyword(String p) in F:\Dropbox\Map\Map\Paper.cs:line 12
+   at Map.SearchPapersWKeywordTests.SearchProblem_NullKeywordGiven() in F:\Dropbox\Map\Map\SearchPapersWKeywordTests.cs:line 92
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="80c81154-58b7-4ce8-8f22-b52602dc767f" testId="b62d274e-24fb-61e6-6c74-6539a7114162" testName="SearchProblem_NullDatabase" computerName="HOWAIYUNG-PC" duration="00:00:00.0011797" startTime="2012-11-02T15:24:17.0109557-06:00" endTime="2012-11-02T15:24:17.0149559-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80c81154-58b7-4ce8-8f22-b52602dc767f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.SearchPapersWKeywordTests.SearchProblem_NullDatabase threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.SearchPapersWKeywordTests.SearchByKeyword(Database allPapers, String existingKeyword) in F:\Dropbox\Map\Map\SearchPapersWKeywordTests.cs:line 155
+   at Map.SearchPapersWKeywordTests.SearchProblem_NullDatabase() in F:\Dropbox\Map\Map\SearchPapersWKeywordTests.cs:line 147
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7a02b897-c0c0-48eb-8784-62a2f062f728" testId="bb18676d-377c-a4ae-690a-6c4a8f00aa46" testName="SearchNormal_NonExistingKeyword" computerName="HOWAIYUNG-PC" duration="00:00:00.0011606" startTime="2012-11-02T15:24:17.0159560-06:00" endTime="2012-11-02T15:24:17.0199562-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a02b897-c0c0-48eb-8784-62a2f062f728">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.SearchPapersWKeywordTests.SearchNormal_NonExistingKeyword threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.addKeyword(String p) in F:\Dropbox\Map\Map\Paper.cs:line 12
+   at Map.SearchPapersWKeywordTests.SearchNormal_NonExistingKeyword() in F:\Dropbox\Map\Map\SearchPapersWKeywordTests.cs:line 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="109a11c5-9784-49cd-85ae-622d9ee8dfa9" testId="c06afa71-2f07-770f-d397-6497f0861191" testName="AddNumericalTitle" computerName="HOWAIYUNG-PC" duration="00:00:00.0011119" startTime="2012-11-02T15:24:17.0209563-06:00" endTime="2012-11-02T15:24:17.0249565-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="109a11c5-9784-49cd-85ae-622d9ee8dfa9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddNumericalTitle threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setTitle(String expectedtitle) in F:\Dropbox\Map\Map\Paper.cs:line 27
+   at Map.AddPaperTests.AddNumericalTitle() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 50
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d6acda10-66ea-4cd1-a19e-d4fb4c349ea0" testId="c61b5fbd-1990-718e-6b92-82f56b46c76a" testName="FindNormalAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0015648" startTime="2012-11-02T15:24:17.0259566-06:00" endTime="2012-11-02T15:24:17.0309568-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6acda10-66ea-4cd1-a19e-d4fb4c349ea0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.FindNormalAuthor threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.FindNormalAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="581e5bec-e862-4de7-a20c-47f371bd53da" testId="cf1bd0a7-ba2a-cfcf-0db4-f40cc25e59f3" testName="AddEmptyStringTitle" computerName="HOWAIYUNG-PC" duration="00:00:00.0011342" startTime="2012-11-02T15:24:17.0329570-06:00" endTime="2012-11-02T15:24:17.0369572-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="581e5bec-e862-4de7-a20c-47f371bd53da">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddEmptyStringTitle threw exception System.NotImplementedException, but exception System.ArgumentException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setTitle(String expectedtitle) in F:\Dropbox\Map\Map\Paper.cs:line 27
+   at Map.AddPaperTests.AddEmptyStringTitle() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 40
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d29786f0-febd-43dd-88a8-a02b7cda5f61" testId="de8c182f-b223-ca86-caf8-d808945a3a91" testName="UnicodeAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0011258" startTime="2012-11-02T15:24:17.0379572-06:00" endTime="2012-11-02T15:24:17.0419575-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d29786f0-febd-43dd-88a8-a02b7cda5f61">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.UnicodeAuthor threw exception System.NullReferenceException, but exception System.ArgumentException was expected. Exception message: System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.UnicodeAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 162
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6cfeb223-3e22-44da-ac0f-847a5137e641" testId="e6daca45-d31d-d05e-07d8-5d1d6e220219" testName="AddZeroYear" computerName="HOWAIYUNG-PC" duration="00:00:00.0011722" startTime="2012-11-02T15:24:17.0439576-06:00" endTime="2012-11-02T15:24:17.0479578-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6cfeb223-3e22-44da-ac0f-847a5137e641">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.AddPaperTests.AddZeroYear threw exception System.NotImplementedException, but exception System.ArgumentException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.Paper.setYear(Int32 expectedyear) in F:\Dropbox\Map\Map\Paper.cs:line 37
+   at Map.AddPaperTests.AddZeroYear() in F:\Dropbox\Map\Map\AddPaperTests.cs:line 162
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="39abd59a-3336-4d1c-b3ea-0c8552ae11fd" testId="ebe59462-0919-d773-41c7-20b1f87e0c62" testName="TabAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0011289" startTime="2012-11-02T15:24:17.0499579-06:00" endTime="2012-11-02T15:24:17.0539582-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39abd59a-3336-4d1c-b3ea-0c8552ae11fd">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.TabAuthor threw exception System.NullReferenceException, but exception System.ArgumentException was expected. Exception message: System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.TabAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 191
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e7a189de-ef5b-421d-9785-1226e2c157c4" testId="f88b0f97-6095-93ab-4570-ffad36b75fd0" testName="SearchProblem_EmptyDatabase" computerName="HOWAIYUNG-PC" duration="00:00:00.0011191" startTime="2012-11-02T15:24:17.0549582-06:00" endTime="2012-11-02T15:24:17.0589584-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7a189de-ef5b-421d-9785-1226e2c157c4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.SearchPapersWKeywordTests.SearchProblem_EmptyDatabase threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Map.SearchPapersWKeywordTests.SearchByKeyword(Database allPapers, String existingKeyword) in F:\Dropbox\Map\Map\SearchPapersWKeywordTests.cs:line 155
+   at Map.SearchPapersWKeywordTests.SearchProblem_EmptyDatabase() in F:\Dropbox\Map\Map\SearchPapersWKeywordTests.cs:line 133
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

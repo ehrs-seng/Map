@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0db05cb2-2f04-4576-8bc2-47aa38589da5" name="Ho Wai Yung@HOWAIYUNG-PC 2012-11-02 15:32:08" runUser="HoWaiYung-PC\Ho Wai Yung" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="19f1e08e-e37f-44cb-a353-ec143923a7f4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Ho Wai Yung_HOWAIYUNG-PC 2012-11-02 15_32_08" />
+  </TestSettings>
+  <Times creation="2012-11-02T15:32:08.6449316-06:00" queuing="2012-11-02T15:32:09.4989805-06:00" start="2012-11-02T15:32:09.5029807-06:00" finish="2012-11-02T15:32:10.0710132-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FindAllNumericalAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="9c148ebc-5ce5-69f8-94c2-a363b6b499cf">
+      <Execution id="d2a4d8c0-1627-498a-9851-012c59a1a7b1" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindAllNumericalAuthor" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9c148ebc-5ce5-69f8-94c2-a363b6b499cf" executionId="d2a4d8c0-1627-498a-9851-012c59a1a7b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d2a4d8c0-1627-498a-9851-012c59a1a7b1" testId="9c148ebc-5ce5-69f8-94c2-a363b6b499cf" testName="FindAllNumericalAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0208798" startTime="2012-11-02T15:32:09.5059809-06:00" endTime="2012-11-02T15:32:10.0600126-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2a4d8c0-1627-498a-9851-012c59a1a7b1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.FindAllNumericalAuthor threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.FindAllNumericalAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 64
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

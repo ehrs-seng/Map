@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c5c4c17d-13b7-405e-9054-bb1753ca1157" name="Ho Wai Yung@HOWAIYUNG-PC 2012-11-02 15:29:51" runUser="HoWaiYung-PC\Ho Wai Yung" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="19f1e08e-e37f-44cb-a353-ec143923a7f4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Ho Wai Yung_HOWAIYUNG-PC 2012-11-02 15_29_51" />
+  </TestSettings>
+  <Times creation="2012-11-02T15:29:51.9451128-06:00" queuing="2012-11-02T15:29:52.7711601-06:00" start="2012-11-02T15:29:52.7761604-06:00" finish="2012-11-02T15:29:52.9931728-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FindPartialUnicodeAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="401fd3f5-883b-6806-028c-ee2f9d46a707">
+      <Execution id="723242a1-b0a0-45b7-8434-b24e6fe19e6f" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindPartialUnicodeAuthor" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="401fd3f5-883b-6806-028c-ee2f9d46a707" executionId="723242a1-b0a0-45b7-8434-b24e6fe19e6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="723242a1-b0a0-45b7-8434-b24e6fe19e6f" testId="401fd3f5-883b-6806-028c-ee2f9d46a707" testName="FindPartialUnicodeAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0210060" startTime="2012-11-02T15:29:52.7781605-06:00" endTime="2012-11-02T15:29:52.9821721-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="723242a1-b0a0-45b7-8434-b24e6fe19e6f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.FindPartialUnicodeAuthor threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.FindPartialUnicodeAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

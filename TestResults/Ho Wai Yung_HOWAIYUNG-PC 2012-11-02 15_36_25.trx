@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="76aca6e9-05c5-4db5-bedf-b0547ff4b722" name="Ho Wai Yung@HOWAIYUNG-PC 2012-11-02 15:36:25" runUser="HoWaiYung-PC\Ho Wai Yung" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="19f1e08e-e37f-44cb-a353-ec143923a7f4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Ho Wai Yung_HOWAIYUNG-PC 2012-11-02 15_36_25" />
+  </TestSettings>
+  <Times creation="2012-11-02T15:36:25.3216127-06:00" queuing="2012-11-02T15:36:26.4416767-06:00" start="2012-11-02T15:36:26.4506773-06:00" finish="2012-11-02T15:36:26.8547004-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="11" executed="11" passed="1" error="0" failed="10" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FindPartialNumericalAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="7f1db94b-22b0-30cf-3893-fa8638658470">
+      <Execution id="3f857ab4-bb4a-44fb-9bc6-d71998102978" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindPartialNumericalAuthor" />
+    </UnitTest>
+    <UnitTest name="FindNormalAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="c61b5fbd-1990-718e-6b92-82f56b46c76a">
+      <Execution id="fc10ca10-cd00-4fdb-962e-28b5771b3e83" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindNormalAuthor" />
+    </UnitTest>
+    <UnitTest name="FindPartialUnicodeAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="401fd3f5-883b-6806-028c-ee2f9d46a707">
+      <Execution id="bbf88d7c-e010-4484-9259-7fbb58708106" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindPartialUnicodeAuthor" />
+    </UnitTest>
+    <UnitTest name="SpaceAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="7b94a73f-3b57-c3f4-7f9b-558acb4a87b2">
+      <Execution id="d83d0e76-0ec9-4c20-b8fd-d2d65840f81b" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SpaceAuthor" />
+    </UnitTest>
+    <UnitTest name="FindAllNumericalAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="9c148ebc-5ce5-69f8-94c2-a363b6b499cf">
+      <Execution id="35303864-f0f9-4184-933c-6a9d6e3bc737" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindAllNumericalAuthor" />
+    </UnitTest>
+    <UnitTest name="NullAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="7b3bd826-2935-d997-c1b7-02ca9a4a707a">
+      <Execution id="e95a125f-c3c8-447b-824e-5882cba9de08" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullAuthor" />
+    </UnitTest>
+    <UnitTest name="FindNonExistingAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="748dc392-9274-c2c3-1136-a6594e65bcfb">
+      <Execution id="b7ea8b55-2dd1-4128-8983-aad768855b9c" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindNonExistingAuthor" />
+    </UnitTest>
+    <UnitTest name="TabAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="ebe59462-0919-d773-41c7-20b1f87e0c62">
+      <Execution id="95709846-338b-4075-adbc-0546775a99d1" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TabAuthor" />
+    </UnitTest>
+    <UnitTest name="FindNoKeywordAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="a629a122-196f-9169-0a2e-782ce464b595">
+      <Execution id="f18340df-7545-4e91-b6ae-b48ca1fe0510" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindNoKeywordAuthor" />
+    </UnitTest>
+    <UnitTest name="emptyAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="47c87be3-6997-cb09-ee47-e5831347fc33">
+      <Execution id="0c49da95-b10b-4c53-b201-3777349548f8" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="emptyAuthor" />
+    </UnitTest>
+    <UnitTest name="UnicodeAuthor" storage="f:\dropbox\map\map\bin\debug\map.dll" id="de8c182f-b223-ca86-caf8-d808945a3a91">
+      <Execution id="b18bd6eb-f141-466e-a8ea-7e33e0b49d54" />
+      <TestMethod codeBase="F:/Dropbox/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UnicodeAuthor" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="401fd3f5-883b-6806-028c-ee2f9d46a707" executionId="bbf88d7c-e010-4484-9259-7fbb58708106" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47c87be3-6997-cb09-ee47-e5831347fc33" executionId="0c49da95-b10b-4c53-b201-3777349548f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="748dc392-9274-c2c3-1136-a6594e65bcfb" executionId="b7ea8b55-2dd1-4128-8983-aad768855b9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b3bd826-2935-d997-c1b7-02ca9a4a707a" executionId="e95a125f-c3c8-447b-824e-5882cba9de08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b94a73f-3b57-c3f4-7f9b-558acb4a87b2" executionId="d83d0e76-0ec9-4c20-b8fd-d2d65840f81b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f1db94b-22b0-30cf-3893-fa8638658470" executionId="3f857ab4-bb4a-44fb-9bc6-d71998102978" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c148ebc-5ce5-69f8-94c2-a363b6b499cf" executionId="35303864-f0f9-4184-933c-6a9d6e3bc737" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a629a122-196f-9169-0a2e-782ce464b595" executionId="f18340df-7545-4e91-b6ae-b48ca1fe0510" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c61b5fbd-1990-718e-6b92-82f56b46c76a" executionId="fc10ca10-cd00-4fdb-962e-28b5771b3e83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de8c182f-b223-ca86-caf8-d808945a3a91" executionId="b18bd6eb-f141-466e-a8ea-7e33e0b49d54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebe59462-0919-d773-41c7-20b1f87e0c62" executionId="95709846-338b-4075-adbc-0546775a99d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bbf88d7c-e010-4484-9259-7fbb58708106" testId="401fd3f5-883b-6806-028c-ee2f9d46a707" testName="FindPartialUnicodeAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0208615" startTime="2012-11-02T15:36:26.4526774-06:00" endTime="2012-11-02T15:36:26.6566890-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbf88d7c-e010-4484-9259-7fbb58708106">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.FindPartialUnicodeAuthor threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.FindPartialUnicodeAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0c49da95-b10b-4c53-b201-3777349548f8" testId="47c87be3-6997-cb09-ee47-e5831347fc33" testName="emptyAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0017741" startTime="2012-11-02T15:36:26.6576891-06:00" endTime="2012-11-02T15:36:26.6626894-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c49da95-b10b-4c53-b201-3777349548f8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.emptyAuthor threw exception System.NullReferenceException, but exception System.ArgumentException was expected. Exception message: System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.emptyAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 199
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b7ea8b55-2dd1-4128-8983-aad768855b9c" testId="748dc392-9274-c2c3-1136-a6594e65bcfb" testName="FindNonExistingAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0014274" startTime="2012-11-02T15:36:26.6646895-06:00" endTime="2012-11-02T15:36:26.6696898-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7ea8b55-2dd1-4128-8983-aad768855b9c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.FindNonExistingAuthor threw exception System.NullReferenceException, but exception System.ArgumentException was expected. Exception message: System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.FindNonExistingAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 138
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e95a125f-c3c8-447b-824e-5882cba9de08" testId="7b3bd826-2935-d997-c1b7-02ca9a4a707a" testName="NullAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0013154" startTime="2012-11-02T15:36:26.6716899-06:00" endTime="2012-11-02T15:36:26.6766902-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e95a125f-c3c8-447b-824e-5882cba9de08">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.NullAuthor threw exception System.NullReferenceException, but exception System.ArgumentException was expected. Exception message: System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.NullAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 173
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d83d0e76-0ec9-4c20-b8fd-d2d65840f81b" testId="7b94a73f-3b57-c3f4-7f9b-558acb4a87b2" testName="SpaceAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0011847" startTime="2012-11-02T15:36:26.6776902-06:00" endTime="2012-11-02T15:36:26.6826905-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d83d0e76-0ec9-4c20-b8fd-d2d65840f81b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.SpaceAuthor threw exception System.NullReferenceException, but exception System.ArgumentException was expected. Exception message: System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.SpaceAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 181
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3f857ab4-bb4a-44fb-9bc6-d71998102978" testId="7f1db94b-22b0-30cf-3893-fa8638658470" testName="FindPartialNumericalAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0014631" startTime="2012-11-02T15:36:26.6836906-06:00" endTime="2012-11-02T15:36:26.6886909-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f857ab4-bb4a-44fb-9bc6-d71998102978">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.FindPartialNumericalAuthor threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.FindPartialNumericalAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 43
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="35303864-f0f9-4184-933c-6a9d6e3bc737" testId="9c148ebc-5ce5-69f8-94c2-a363b6b499cf" testName="FindAllNumericalAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0014354" startTime="2012-11-02T15:36:26.6896909-06:00" endTime="2012-11-02T15:36:26.6946912-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35303864-f0f9-4184-933c-6a9d6e3bc737">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.FindAllNumericalAuthor threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.FindAllNumericalAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 64
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f18340df-7545-4e91-b6ae-b48ca1fe0510" testId="a629a122-196f-9169-0a2e-782ce464b595" testName="FindNoKeywordAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0006465" startTime="2012-11-02T15:36:26.6956913-06:00" endTime="2012-11-02T15:36:26.6996915-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f18340df-7545-4e91-b6ae-b48ca1fe0510">
+    </UnitTestResult>
+    <UnitTestResult executionId="fc10ca10-cd00-4fdb-962e-28b5771b3e83" testId="c61b5fbd-1990-718e-6b92-82f56b46c76a" testName="FindNormalAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0014319" startTime="2012-11-02T15:36:26.7016916-06:00" endTime="2012-11-02T15:36:26.7056918-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc10ca10-cd00-4fdb-962e-28b5771b3e83">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.FindNormalAuthor threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.FindNormalAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b18bd6eb-f141-466e-a8ea-7e33e0b49d54" testId="de8c182f-b223-ca86-caf8-d808945a3a91" testName="UnicodeAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0013319" startTime="2012-11-02T15:36:26.7076920-06:00" endTime="2012-11-02T15:36:26.7176925-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b18bd6eb-f141-466e-a8ea-7e33e0b49d54">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.UnicodeAuthor threw exception System.NullReferenceException, but exception System.ArgumentException was expected. Exception message: System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.UnicodeAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 162
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="95709846-338b-4075-adbc-0546775a99d1" testId="ebe59462-0919-d773-41c7-20b1f87e0c62" testName="TabAuthor" computerName="HOWAIYUNG-PC" duration="00:00:00.0011494" startTime="2012-11-02T15:36:26.7196926-06:00" endTime="2012-11-02T15:36:26.7236929-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95709846-338b-4075-adbc-0546775a99d1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Map.FindKeywordByAuthorTests.TabAuthor threw exception System.NullReferenceException, but exception System.ArgumentException was expected. Exception message: System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Map.Author..ctor(String existingAuthor) in F:\Dropbox\Map\Map\Author.cs:line 15
+   at Map.FindKeywordByAuthorTests.TabAuthor() in F:\Dropbox\Map\Map\FindKeywordByAuthorTests.cs:line 191
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
