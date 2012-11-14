@@ -14,16 +14,11 @@ namespace Map
         {   
             String expectedkeyword = "Testing";
             Paper existingpaper = new Paper();
-            Author a = new Author();
 
             existingpaper.addKeyword(expectedkeyword);
-            List<String> keywords = existingpaper.listKeywords();
-            List<String> authorkeywords = a.listKeywords();
+            List<String> keywords = existingpaper.getListKeywords();
 
             String actual = keywords.Find(s => s == expectedkeyword);
-            Assert.AreEqual(actual, expectedkeyword);
-
-            actual = authorkeywords.Find(s => s == expectedkeyword);
             Assert.AreEqual(actual, expectedkeyword);
 
         }
@@ -33,32 +28,13 @@ namespace Map
         {
             String expectedkeyword = "Test1234";
             Paper existingpaper = new Paper();
-            Author a = new Author();
 
             existingpaper.addKeyword(expectedkeyword);
-            List<String> keywords = existingpaper.listKeywords();
-            List<String> authorkeywords = a.listKeywords();
+            List<String> keywords = existingpaper.getListKeywords();
 
             String actual = keywords.Find(s => s == expectedkeyword);
             Assert.AreEqual(actual, expectedkeyword);
 
-            actual = authorkeywords.Find(s => s == expectedkeyword);
-            Assert.AreEqual(actual, expectedkeyword);
-
-        }
-
-        [TestMethod]
-        public void RemoveNormalUniqueKeyword()
-        {
-            String expectedkeyword = "Testing";
-            Paper existingpaper = new Paper();
-            Author a = new Author();
-
-            existingpaper.removeKeyword(expectedkeyword);
-            List<String> keywords = existingpaper.listKeywords();
-
-            bool removed = keywords.Contains(expectedkeyword);
-            Assert.IsFalse(removed);
         }
 
         [TestMethod]
@@ -93,7 +69,7 @@ namespace Map
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Keywords must not be a null value")]
+        [ExpectedException(typeof(ArgumentNullException), "Keywords must not be a null value")]
         public void AddNullStringKeyword()
         {
             String expectedkeyword = null;

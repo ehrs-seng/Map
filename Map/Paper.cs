@@ -5,62 +5,80 @@ using System.Text;
 
 namespace Map
 {
-    class Paper
+    public class Paper
     {
+
+        string title;
+        List<string> authors;
+        int year;
+        List<string> keywords;
+        string paperabstract;
+
         internal void addKeyword(string p)
         {
+            if (keywords.Contains(p))
+            {
+                throw new ArgumentException("No duplicate keywords allowed.");
+            }
+            else if (p == "")
+            {
+                throw new ArgumentException("Keywords must not be an empty string");
+            }
+            else if(System.Text.RegularExpressions.Regex.IsMatch(p, "^[a-z]*^[A-Z]"))
+            {
+                throw new ArgumentException("Keywords must contain letters");
+            }
+            else if(p == null)
+            {
+                throw new ArgumentNullException("Keywords must not be a null value");
+            }
             //testing commit by adding this random useless comment... Ed.
-            throw new NotImplementedException();
+            keywords.Add(p);
         }
 
-        internal List<string> listKeywords()
+        internal List<string> getListKeywords()
         {
-            throw new NotImplementedException();
-        }
-
-        internal void removeKeyword(string expectedkeyword)
-        {
-            throw new NotImplementedException();
+            return keywords;
         }
 
         internal void setTitle(string expectedtitle)
         {
-            throw new NotImplementedException();
+            title = expectedtitle;
         }
         
         internal void setAuthor(string expectedauthor)
         {
-            throw new NotImplementedException();
+            authors.Add(expectedauthor);
         }
 
         internal void setYear(int expectedyear)
         {
-            throw new NotImplementedException();
+            year = expectedyear;
         }
 
         internal void setAbstract(string expectedabstract)
         {
-            throw new NotImplementedException();
+            paperabstract = expectedabstract;
         }
 
         internal String getTitle()
         {
-            throw new NotImplementedException();
+            return title;
         }
 
-        internal String getAuthor()
+        internal List<string> getAuthor()
         {
-            throw new NotImplementedException();
+            return authors;
         }
 
         internal int getYear()
         {
-            throw new NotImplementedException();
+            return year;
         }
 
         internal string getAbstract()
         {
-            throw new NotImplementedException();
+            return paperabstract;
         }
     }
 }
