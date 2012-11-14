@@ -1,0 +1,8 @@
+*.suo
+
+[Bb]in/
+[Oo]bj/
+
+[Bb]in/[Dd]ebug/
+
+[Oo]bj/x86/Debug/
