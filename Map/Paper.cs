@@ -14,7 +14,12 @@ namespace Map
         List<string> keywords;
         string paperabstract;
 
-        internal void addKeyword(string p)
+        public Paper()
+        {
+            authors = new List<string>();
+        }
+
+        public void addKeyword(string p)
         {
             if (keywords.Contains(p))
             {
@@ -36,47 +41,47 @@ namespace Map
             keywords.Add(p);
         }
 
-        internal List<string> getListKeywords()
+        public List<string> getListKeywords()
         {
             return keywords;
         }
 
-        internal void setTitle(string expectedtitle)
+        public void setTitle(string expectedtitle)
         {
             title = expectedtitle;
         }
         
-        internal void setAuthor(string expectedauthor)
+        public void setAuthor(string expectedauthor)
         {
             authors.Add(expectedauthor);
         }
 
-        internal void setYear(int expectedyear)
+        public void setYear(int expectedyear)
         {
             year = expectedyear;
         }
 
-        internal void setAbstract(string expectedabstract)
+        public void setAbstract(string expectedabstract)
         {
             paperabstract = expectedabstract;
         }
 
-        internal String getTitle()
+        public String getTitle()
         {
             return title;
         }
 
-        internal List<string> getAuthor()
+        public List<string> getAuthor()
         {
             return authors;
         }
 
-        internal int getYear()
+        public int getYear()
         {
             return year;
         }
 
-        internal string getAbstract()
+        public string getAbstract()
         {
             return paperabstract;
         }

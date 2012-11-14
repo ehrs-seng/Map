@@ -20,9 +20,12 @@ namespace MApp
     /// </summary>
     public partial class MainWindow : Window
     {
+        public Database d;
+
         public MainWindow()
         {
             InitializeComponent();
+            d = new Database();
         }
 
         private void addKeywordButton_Click(object sender, RoutedEventArgs e)
@@ -30,6 +33,15 @@ namespace MApp
             this.Content = new addKeywordScreen();
         }
 
+        private void AddPaperButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Content = new AddPaperScreen();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
 
     }
 }

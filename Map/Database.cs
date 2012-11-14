@@ -9,14 +9,19 @@ namespace Map
     {
         List<Paper> papers;
 
+        public Database()
+        {
+            papers = new List<Paper>();
+        }
+
         public List<Paper> getPapers()
         {
             return papers;
         }
 
-        internal void addPaper(Paper existingPaper)
+        public void addPaper(Paper existingPaper)
         {
-            throw new NotImplementedException();
+            papers.Add(existingPaper);
         }
 
         internal List<string> searchByAuthor(Database allPapers, string expectedAuthor)
