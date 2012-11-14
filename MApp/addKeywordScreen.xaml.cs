@@ -20,10 +20,16 @@ namespace MApp
     /// </summary>
     public partial class addKeywordScreen : UserControl
     {
-        public addKeywordScreen()
+        Database d;
+        MainWindow parent;
+
+        public addKeywordScreen(MainWindow p)
         {
             InitializeComponent();
-            Database d = new Database();
+            parent = p;
+            d = parent.d;
+
+            this.comboBox1.DataContext = d.getPapers();
         }
 
         private void comboBox1_SelectionChanged(object sender, SelectionChangedEventArgs e)

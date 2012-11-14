@@ -26,16 +26,7 @@ namespace MApp
         {
             InitializeComponent();
             d = new Database();
-        }
-
-        private void addKeywordButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.Content = new addKeywordScreen();
-        }
-
-        private void AddPaperButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.Content = new AddPaperScreen();
+            this.Content = new Main(this);
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)

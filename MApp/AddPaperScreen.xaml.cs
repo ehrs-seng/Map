@@ -20,9 +20,12 @@ namespace MApp
     /// </summary>
     public partial class AddPaperScreen : UserControl
     {
-        public AddPaperScreen()
+        MainWindow main;
+
+        public AddPaperScreen(MainWindow m)
         {
             InitializeComponent();
+            main = m;
         }
 
         private void addpaper_Click(object sender, RoutedEventArgs e)
@@ -35,13 +38,12 @@ namespace MApp
             p.setYear(int.Parse(this.yeartext.Text));
             p.setAbstract(this.abstracttext.Text);
             m.d.addPaper(p);
+   
         }
 
         private void home_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow m = (MainWindow)this.Parent;
-
-            //m.Content = m;
+            main.Content = new Main(main);
         }
     }
 }
