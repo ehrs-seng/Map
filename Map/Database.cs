@@ -5,8 +5,15 @@ using System.Text;
 
 namespace Map
 {
-    class Database
+    public class Database
     {
+        List<Paper> papers;
+
+        public List<Paper> getPapers()
+        {
+            return papers;
+        }
+
         internal void addPaper(Paper existingPaper)
         {
             throw new NotImplementedException();

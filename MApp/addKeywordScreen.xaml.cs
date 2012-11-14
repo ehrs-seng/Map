@@ -16,20 +16,19 @@ using Map;
 namespace MApp
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for addKeywordScreen.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class addKeywordScreen : UserControl
     {
-        public MainWindow()
+        public addKeywordScreen()
         {
             InitializeComponent();
+            Database d = new Database();
         }
 
-        private void addKeywordButton_Click(object sender, RoutedEventArgs e)
+        private void comboBox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            this.Content = new addKeywordScreen();
+
         }
-
-
     }
 }

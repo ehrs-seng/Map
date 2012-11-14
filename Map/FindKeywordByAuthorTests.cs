@@ -206,7 +206,7 @@ namespace Map
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException), "Invalid author name")]
-        public void emptyAuthor()
+        public void invalidAuthor()
         {
             //The input author is a bunch of text symbols
             String emptyInputAuthor = "\t \n \t";
