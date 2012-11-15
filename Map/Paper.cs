@@ -42,9 +42,14 @@ namespace Map
             keywords.Add(p);
         }
 
-        public List<string> getListKeywords()
+        public List<string> listKeywords()
         {
             return keywords;
+        }
+
+        public List<string> listAuthors()
+        {
+            return authors;
         }
 
         public void setTitle(string expectedtitle)
