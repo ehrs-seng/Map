@@ -21,10 +21,10 @@ namespace Map
 
             //  add paper to a database
             Database allPapers = new Database();
-            allPapers.addPaper(existingPaper);
+            Database.addPaper(allPapers, existingPaper);
 
             //  search database using keyword of "Doppler Effect"
-            Paper [] searchedPaper = SearchByKeyword(allPapers, existingKeyword);
+            List<Paper> searchedPaper = Database.searchByKeyword(allPapers, existingKeyword);
 
             //  check if search result returns null (found no matches for "Doppler Effect")
             if (searchedPaper == null) Assert.Fail();
@@ -43,11 +43,11 @@ namespace Map
 
             //  add paper to a database
             Database allPapers = new Database();
-            allPapers.addPaper(existingPaper);
+            Database.addPaper(allPapers, existingPaper);
 
             //  search database using non-existing keyword of "Fusion"
             String nonExistingKeyword = "Fusion";
-            Paper [] searchedPaper = SearchByKeyword(allPapers, nonExistingKeyword);
+            List<Paper> searchedPaper = Database.searchByKeyword(allPapers, nonExistingKeyword);
 
             //  check if search result returns null (found no matches for "Fusion")
             Assert.AreEqual(searchedPaper, null);
@@ -69,11 +69,11 @@ namespace Map
                 existingPaper[i].addKeyword(existingKeyword);
 
                 //  add paper to a database
-                allPapers.addPaper(existingPaper[i]);
+                Database.addPaper(allPapers, existingPaper[i]);
             }
 
             //  search database using keyword of "Doppler Effect"
-            Paper [] searchedPaper = SearchByKeyword(allPapers, existingKeyword);
+            List<Paper> searchedPaper = Database.searchByKeyword(allPapers, existingKeyword);
 
             //  check if search result returns null (found no matches for "Doppler Effect")
             if (searchedPaper == null) Assert.Fail();
@@ -93,10 +93,10 @@ namespace Map
 
             //  add paper to a database
             Database allPapers = new Database();
-            allPapers.addPaper(existingPaper);
+            Database.addPaper(allPapers, existingPaper);
 
             //  search database using null keyword
-            Paper[] searchedPaper = SearchByKeyword(allPapers, null);
+            List<Paper> searchedPaper = Database.searchByKeyword(allPapers, null);
 
             //  check if search result returns null (found no matches for null keyword)
             Assert.AreEqual(searchedPaper, null);
@@ -112,11 +112,11 @@ namespace Map
 
             //  add paper to a database
             Database allPapers = new Database();
-            allPapers.addPaper(existingPaper);
+            Database.addPaper(allPapers, existingPaper);
 
             //  search database using empty keyword
             String searchKeyword = "";
-            Paper[] searchedPaper = SearchByKeyword(allPapers, searchKeyword);
+            List<Paper> searchedPaper = Database.searchByKeyword(allPapers, searchKeyword);
 
             //  check if search result returns null (found no matches for empty keyword)
             Assert.AreEqual(searchedPaper, null);
@@ -130,7 +130,7 @@ namespace Map
 
             //  search empty database using "Doppler Effect"
             String searchKeyword = "Doppler Effect";
-            Paper[] searchedPaper = SearchByKeyword(allPapers, searchKeyword);
+            List<Paper> searchedPaper = Database.searchByKeyword(allPapers, searchKeyword);
 
             //  check if search result returns null (found no matches for "Doppler Effect")
             Assert.AreEqual(searchedPaper, null);
@@ -144,15 +144,11 @@ namespace Map
 
             //  search non-existent database using "Doppler Effect"
             String searchKeyword = "Doppler Effect";
-            Paper[] searchedPaper = SearchByKeyword(allPapers, searchKeyword);
+            List<Paper> searchedPaper = Database.searchByKeyword(allPapers, searchKeyword);
+            Database.searchByKeyword(allPapers, searchKeyword);
 
             //  check if search result returns null (found no matches for "Doppler Effect")
             Assert.AreEqual(searchedPaper, null);
-        }
-
-        private Paper [] SearchByKeyword(Database allPapers, string existingKeyword)
-        {
-            throw new NotImplementedException();
         }
     }
 }
