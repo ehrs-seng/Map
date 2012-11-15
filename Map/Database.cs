@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Map
 {
-    class Database
+    public class Database
     {
         private List<Paper> allPapers = new List<Paper>();
 

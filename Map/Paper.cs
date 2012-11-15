@@ -30,16 +30,20 @@ namespace Map
             {
                 throw new ArgumentException("Keywords must not be an empty string");
             }
-            else if(System.Text.RegularExpressions.Regex.IsMatch(p, "^[a-z]*^[A-Z]"))
+            
+            else if(!System.Text.RegularExpressions.Regex.IsMatch(p, "[a-z]|[A-Z]"))
             {
                 throw new ArgumentException("Keywords must contain letters");
             }
-            else if(p == null)
+            else if (p == null)
             {
                 throw new ArgumentNullException("Keywords must not be a null value");
             }
-            //testing commit by adding this random useless comment... Ed.
-            keywords.Add(p);
+            else
+            {
+                //testing commit by adding this random useless comment... Ed.
+                keywords.Add(p);
+            }
         }
 
         public List<string> listKeywords()

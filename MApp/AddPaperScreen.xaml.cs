@@ -37,7 +37,7 @@ namespace MApp
             p.setAuthor(this.authortext.Text);
             p.setYear(int.Parse(this.yeartext.Text));
             p.setAbstract(this.abstracttext.Text);
-            m.d.addPaper(p);
+            //m.d.addPaper(p);
    
         }
 

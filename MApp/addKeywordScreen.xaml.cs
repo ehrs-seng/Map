@@ -29,12 +29,12 @@ namespace MApp
             parent = p;
             d = parent.d;
 
-            this.comboBox1.DataContext = d.getPapers();
+            //this.comboBox1.DataContext = d.getPapers();
         }
 
         private void comboBox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+   
         }
     }
 }
