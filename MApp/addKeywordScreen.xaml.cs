@@ -22,19 +22,21 @@ namespace MApp
     {
         Database d;
         MainWindow parent;
+        List<Paper> papers;
 
         public addKeywordScreen(MainWindow p)
         {
             InitializeComponent();
             parent = p;
             d = parent.d;
+            papers = Database.getAllPapers(d);
 
-            //this.comboBox1.DataContext = d.getPapers();
         }
 
         private void comboBox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
    
         }
+
     }
 }
