@@ -9,6 +9,54 @@ namespace Map
     {
         private List<Paper> allPapers = new List<Paper>();
 
+        internal static void addAuthorToPaperByDatabaseID(Database database, int existingID, string expectedAuthor)
+        {
+            // verify that arguments are valid
+            if (database == null) throw new ArgumentNullException();
+            if (existingID < 0) throw new ArgumentException();
+            if (expectedAuthor == null) throw new ArgumentNullException();
+            if (expectedAuthor == "") throw new ArgumentException();
+
+            // find paper in all papers
+            Paper paper = Database.getPaperByDatabaseID(database, existingID);
+            paper.addAuthor(expectedAuthor);
+        }
+
+        internal static void addAuthorToPaperByPaperReference(Paper existingPaper, string expectedAuthor)
+        {
+            // verify that arguments are valid
+            if (existingPaper == null) throw new ArgumentNullException();
+            if (expectedAuthor == null) throw new ArgumentNullException();
+            if (expectedAuthor == "") throw new ArgumentException();
+
+            // add author to paper
+            existingPaper.addAuthor(expectedAuthor);
+        }
+
+        internal static void addKeywordToPaperByDatabaseID(Database database, int existingID, string expectedKeyword)
+        {
+            // verify that arguments are valid
+            if (database == null) throw new ArgumentNullException();
+            if (existingID < 0) throw new ArgumentException();
+            if (expectedKeyword == null) throw new ArgumentNullException();
+            if (expectedKeyword == "") throw new ArgumentException();
+
+            // find paper in all papers
+            Paper paper = Database.getPaperByDatabaseID(database, existingID);
+            paper.addKeyword(expectedKeyword);
+        }
+
+        internal static void addKeywordToPaperByPaperReference(Paper existingPaper, string expectedKeyword)
+        {
+            // verify that arguments are valid
+            if (existingPaper == null) throw new ArgumentNullException();
+            if (expectedKeyword == null) throw new ArgumentNullException();
+            if (expectedKeyword == "") throw new ArgumentException();
+
+            // add keyword to paper
+            existingPaper.addKeyword(expectedKeyword);
+        }
+
         internal static void addPaper(Database database, Paper existingPaper)
         {
             // verify that arguments are valid
@@ -26,6 +74,74 @@ namespace Map
 
             // clear database's papers
             database.allPapers.Clear();
+        }
+
+        internal static void deleteAbstractFromPaperByDatabaseID(Database database, int existingID)
+        {
+            // verify that arguments are valid
+            if (database == null) throw new ArgumentNullException();
+            if (existingID < 0) throw new ArgumentException();
+
+            // find paper in all papers
+            Paper paper = Database.getPaperByDatabaseID(database, existingID);
+            paper.deleteAbstract();
+        }
+
+        internal static void deleteAbstractFromPaperByPaperReference(Paper existingPaper)
+        {
+            // verify that arguments are valid
+            if (existingPaper == null) throw new ArgumentNullException();
+
+            // add keyword to paper
+            existingPaper.deleteAbstract();
+        }
+
+        internal static void deleteAuthorFromPaperByDatabaseID(Database database, int existingID, string expectedAuthor)
+        {
+            // verify that arguments are valid
+            if (database == null) throw new ArgumentNullException();
+            if (existingID < 0) throw new ArgumentException();
+            if (expectedAuthor == null) throw new ArgumentNullException();
+            if (expectedAuthor == "") throw new ArgumentException();
+
+            // find paper in all papers
+            Paper paper = Database.getPaperByDatabaseID(database, existingID);
+            paper.deleteAuthor(expectedAuthor);
+        }
+
+        internal static void deleteAuthorFromPaperByPaperReference(Paper existingPaper, string expectedAuthor)
+        {
+            // verify that arguments are valid
+            if (existingPaper == null) throw new ArgumentNullException();
+            if (expectedAuthor == null) throw new ArgumentNullException();
+            if (expectedAuthor == "") throw new ArgumentException();
+
+            // add author to paper
+            existingPaper.deleteAuthor(expectedAuthor);
+        }
+
+        internal static void deleteKeywordFromPaperByDatabaseID(Database database, int existingID, string expectedKeyword)
+        {
+            // verify that arguments are valid
+            if (database == null) throw new ArgumentNullException();
+            if (existingID < 0) throw new ArgumentException();
+            if (expectedKeyword == null) throw new ArgumentNullException();
+            if (expectedKeyword == "") throw new ArgumentException();
+
+            // find paper in all papers
+            Paper paper = Database.getPaperByDatabaseID(database, existingID);
+            paper.deleteKeyword(expectedKeyword);
+        }
+
+        internal static void deleteKeywordFromPaperByPaperReference(Paper existingPaper, string expectedKeyword)
+        {
+            // verify that arguments are valid
+            if (existingPaper == null) throw new ArgumentNullException();
+            if (expectedKeyword == null) throw new ArgumentNullException();
+            if (expectedKeyword == "") throw new ArgumentException();
+
+            // add keyword to paper
+            existingPaper.deleteKeyword(expectedKeyword);
         }
 
         internal static void deletePaperByAbstract(Database database, string expectedAbstract)
@@ -145,6 +261,118 @@ namespace Map
                 if (Database.getAllPapers(database).ElementAt(i).getYear() == expectedYear)
                     Database.getAllPapers(database).RemoveAt(i);
             }
+        }
+
+        internal static void deleteTitleFromPaperByDatabaseID(Database database, int existingID)
+        {
+            // verify that arguments are valid
+            if (database == null) throw new ArgumentNullException();
+            if (existingID < 0) throw new ArgumentException();
+
+            // find paper in all papers
+            Paper paper = Database.getPaperByDatabaseID(database, existingID);
+            paper.deleteTitle();
+        }
+
+        internal static void deleteTitleFromPaperByPaperReference(Paper existingPaper)
+        {
+            // verify that arguments are valid
+            if (existingPaper == null) throw new ArgumentNullException();
+
+            // add keyword to paper
+            existingPaper.deleteTitle();
+        }
+
+        internal static void deleteYearFromPaperByDatabaseID(Database database, int existingID)
+        {
+            // verify that arguments are valid
+            if (database == null) throw new ArgumentNullException();
+            if (existingID < 0) throw new ArgumentException();
+
+            // find paper in all papers
+            Paper paper = Database.getPaperByDatabaseID(database, existingID);
+            paper.deleteYear();
+        }
+
+        internal static void deleteYearFromPaperByPaperReference(Paper existingPaper)
+        {
+            // verify that arguments are valid
+            if (existingPaper == null) throw new ArgumentNullException();
+
+            // add keyword to paper
+            existingPaper.deleteYear();
+        }
+
+        internal static void editAbstractOfPaperByDatabaseID(Database database, int existingID, string expectedAbstract)
+        {
+            // verify that arguments are valid
+            if (database == null) throw new ArgumentNullException();
+            if (existingID < 0) throw new ArgumentException();
+            if (expectedAbstract == null) throw new ArgumentNullException();
+            if (expectedAbstract == "") throw new ArgumentException();
+
+            // find paper in all papers
+            Paper paper = Database.getPaperByDatabaseID(database, existingID);
+            paper.setAbstract(expectedAbstract);
+        }
+
+        internal static void editAbstractOfPaperByPaperReference(Paper existingPaper, string expectedAbstract)
+        {
+            // verify that arguments are valid
+            if (existingPaper == null) throw new ArgumentNullException();
+            if (expectedAbstract == null) throw new ArgumentNullException();
+            if (expectedAbstract == "") throw new ArgumentException();
+
+            // add keyword to paper
+            existingPaper.setAbstract(expectedAbstract);
+        }
+
+        internal static void editTitleOfPaperByDatabaseID(Database database, int existingID, string expectedTitle)
+        {
+            // verify that arguments are valid
+            if (database == null) throw new ArgumentNullException();
+            if (existingID < 0) throw new ArgumentException();
+            if (expectedTitle == null) throw new ArgumentNullException();
+            if (expectedTitle == "") throw new ArgumentException();
+
+            // find paper in all papers
+            Paper paper = Database.getPaperByDatabaseID(database, existingID);
+            paper.setTitle(expectedTitle);
+        }
+
+        internal static void editTitleOfPaperByPaperReference(Paper existingPaper, string expectedTitle)
+        {
+            // verify that arguments are valid
+            if (existingPaper == null) throw new ArgumentNullException();
+            if (expectedTitle == null) throw new ArgumentNullException();
+            if (expectedTitle == "") throw new ArgumentException();
+
+            // add keyword to paper
+            existingPaper.setTitle(expectedTitle);
+        }
+
+        internal static void editYearOfPaperByDatabaseID(Database database, int existingID, int expectedYear)
+        {
+            // verify that arguments are valid
+            if (database == null) throw new ArgumentNullException();
+            if (existingID < 0) throw new ArgumentException();
+            if (expectedYear == null) throw new ArgumentNullException();
+            if (expectedYear < 0) throw new ArgumentException();
+
+            // find paper in all papers
+            Paper paper = Database.getPaperByDatabaseID(database, existingID);
+            paper.setYear(expectedYear);
+        }
+
+        internal static void editYearOfPaperByPaperReference(Paper existingPaper, int expectedYear)
+        {
+            // verify that arguments are valid
+            if (existingPaper == null) throw new ArgumentNullException();
+            if (expectedYear == null) throw new ArgumentNullException();
+            if (expectedYear < 0) throw new ArgumentException();
+
+            // add keyword to paper
+            existingPaper.setYear(expectedYear);
         }
 
         internal static List<Paper> getAllPapers(Database database)
@@ -389,22 +617,6 @@ namespace Map
 
             if (result.Count > 0) return result;
             else return null;
-        }
-
-        /*  I've implemented searchByAuthor up above as a static method.  To use this, change your code from:
-                    myDatabase.searchByAuthor(possibleOtherDatabase, expectedAuthor);
-            to:
-                    Database.searchByAuthor(myDatabase, expectedAuthor);
-            
-            The reason for the change is the possible ambiguity and redundancy I noticed, where you could be sending
-            one database to another database for a query.  However, any data in the other database would be
-            entirely unnecessary to the query, and could possibly interfere with its functionality if it misinterpreted
-            where to reference allPapers from.  Please change your code accordingly.
-         
-                                                                    -Ryan                           */
-        internal List<string> searchByAuthor(Database allPapers, string expectedAuthor)
-        {
-            throw new NotImplementedException();
         }
     }
 }

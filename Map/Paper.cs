@@ -5,85 +5,121 @@ using System.Text;
 
 namespace Map
 {
-    public class Paper
+
+    class Paper
     {
+        private string Abstract;
+        private List<string> Authors;
+        private List<string> Keywords;
+        private string Title;
+        private int Year;
 
-        string title;
-        List<string> authors;
-        int year;
-        List<string> keywords;
-        string paperabstract;
-
-        public Paper()
+        internal void addAuthor(string expectedAuthor)
         {
-            authors = new List<string>();
+            if (Authors.Contains(expectedAuthor) == false)
+                Authors.Add(expectedAuthor);
         }
 
-        public void addKeyword(string p)
+        internal void addKeyword(string expectedKeyword)
         {
-            if (keywords.Contains(p))
-            {
-                throw new ArgumentException("No duplicate keywords allowed.");
-            }
-            else if (p == "")
-            {
-                throw new ArgumentException("Keywords must not be an empty string");
-            }
-            else if(System.Text.RegularExpressions.Regex.IsMatch(p, "^[a-z]*^[A-Z]"))
-            {
-                throw new ArgumentException("Keywords must contain letters");
-            }
-            else if(p == null)
-            {
-                throw new ArgumentNullException("Keywords must not be a null value");
-            }
-            //testing commit by adding this random useless comment... Ed.
-            keywords.Add(p);
+            if (Keywords.Contains(expectedKeyword) == false)
+                Keywords.Add(expectedKeyword);
         }
 
-        public List<string> getListKeywords()
+        internal void deleteAbstract()
         {
-            return keywords;
+            Abstract = null;
         }
 
-        public void setTitle(string expectedtitle)
+        internal void deleteAuthor(string expectedAuthor)
         {
-            title = expectedtitle;
-        }
-        
-        public void setAuthor(string expectedauthor)
-        {
-            authors.Add(expectedauthor);
+            Authors.Remove(expectedAuthor);
         }
 
-        public void setYear(int expectedyear)
+        internal void deleteAuthors()
         {
-            year = expectedyear;
+            Authors.Clear();
         }
 
-        public void setAbstract(string expectedabstract)
+        internal void deleteKeyword(string expectedKeyword)
         {
-            paperabstract = expectedabstract;
+            Keywords.Remove(expectedKeyword);
         }
 
-        public String getTitle()
+        internal void deleteKeywords()
         {
-            return title;
+            Keywords.Clear();
         }
 
-        public List<string> getAuthor()
+        internal void deleteTitle()
         {
-            return authors;
+            Title = null;
         }
 
-        public int getYear()
+        internal void deleteYear()
         {
-            return year;
+            Year = -1;
         }
 
-        public string getAbstract()
+        internal string getAbstract()
         {
-            return paperabstract;
+            return Abstract;
+        }
+
+        //  please use listAuthors() instead; this accounts for multiple authors
+        //                          -Ryan
+        internal String getAuthor()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal String getTitle()
+        {
+            return Title;
+        }
+
+        internal int getYear()
+        {
+            return Year;
+        }
+
+        internal List<string> listAuthors()
+        {
+            return Authors;
+        }
+
+        internal List<string> listKeywords()
+        {
+            return Keywords;
+        }
+
+        //  I'd prefer we be consistent with the namings.  As such, please let me know if we're using "remove" or "delete" for deletion prefixes.
+        //                                  -Ryan
+        internal void removeKeyword(string expectedKeyword)
+        {
+            Keywords.Remove(expectedKeyword);
+        }
+
+        internal void setAbstract(string expectedAbstract)
+        {
+            Abstract = expectedAbstract;
+        }
+
+        //  please use addAuthor() and deleteAuthor() instead; this accounts for multiple authors
+        //                          -Ryan
+        internal void setAuthor(string expectedAuthor)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void setTitle(string expectedTitle)
+        {
+            Title = expectedTitle;
+        }
+
+        internal void setYear(int expectedYear)
+        {
+            Year = expectedYear;
         }
     }
 }
