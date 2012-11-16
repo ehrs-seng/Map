@@ -53,7 +53,7 @@ namespace Map
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Title must not be a null value")]
+        [ExpectedException(typeof(ArgumentNullException), "Title must not be a null value")]
         public void AddNullStringTitle()
         {
             String title = null;
@@ -71,7 +71,7 @@ namespace Map
             Paper newpaper = new Paper();
             newpaper.setAuthor(author);
 
-            Assert.AreEqual(author, newpaper.getAuthor());
+            Assert.IsTrue(newpaper.getAuthor().Contains(author));
         }
 
         [TestMethod]
@@ -81,7 +81,7 @@ namespace Map
             Paper newpaper = new Paper();
             newpaper.setAuthor(author);
 
-            Assert.AreEqual(author, newpaper.getAuthor());
+            Assert.IsTrue(newpaper.getAuthor().Contains(author));
 
         }
 
@@ -93,7 +93,7 @@ namespace Map
             Paper newpaper = new Paper();
             newpaper.setAuthor(author);
 
-            Assert.AreEqual(author, newpaper.getAuthor());
+            Assert.IsTrue(newpaper.getAuthor().Contains(author));
         }
 
         [TestMethod]
@@ -104,18 +104,18 @@ namespace Map
             Paper newpaper = new Paper();
             newpaper.setAuthor(author);
 
-            Assert.AreEqual(author, newpaper.getAuthor());
+            Assert.IsTrue(newpaper.getAuthor().Contains(author));
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Author must not be a null value")]
+        [ExpectedException(typeof(ArgumentNullException), "Author must not be a null value")]
         public void AddAuthorNullStringAuthor()
         {
             String author = null;
             Paper newpaper = new Paper();
             newpaper.setAuthor(author);
 
-            Assert.AreEqual(author, newpaper.getAuthor());
+            Assert.IsTrue(newpaper.getAuthor().Contains(author));
         }
 
         //add year tests
@@ -208,7 +208,7 @@ namespace Map
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Abstract must not be a null value")]
+        [ExpectedException(typeof(ArgumentNullException), "Abstract must not be a null value")]
         public void AddNullAbstract()
         {
             String abstracttext = null;

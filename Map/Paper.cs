@@ -41,7 +41,6 @@ namespace Map
             }
             else
             {
-                //testing commit by adding this random useless comment... Ed.
                 keywords.Add(p);
             }
         }
@@ -58,12 +57,34 @@ namespace Map
 
         public void setTitle(string expectedtitle)
         {
-            title = expectedtitle;
+            if (expectedtitle == "") { throw new ArgumentException("Title must not be an empty string"); }
+            else if(expectedtitle == null){throw new ArgumentNullException("Title must not be a null value");}
+            else{title = expectedtitle;}
         }
         
         public void setAuthor(string expectedauthor)
         {
-            authors.Add(expectedauthor);
+            if (keywords.Contains(expectedauthor))
+            {
+                throw new ArgumentException("No duplicate authors allowed.");
+            }
+            else if (expectedauthor == "")
+            {
+                throw new ArgumentException("Author must not be an empty string");
+            }
+
+            else if (!System.Text.RegularExpressions.Regex.IsMatch(expectedauthor, "[a-z]|[A-Z]"))
+            {
+                throw new ArgumentException("Author must contain letters");
+            }
+            else if (expectedauthor == null)
+            {
+                throw new ArgumentNullException("Author must not be a null value");
+            }
+            else
+            {
+                authors.Add(expectedauthor);
+            }
         }
 
         public void setYear(int expectedyear)
@@ -73,7 +94,9 @@ namespace Map
 
         public void setAbstract(string expectedabstract)
         {
-            paperabstract = expectedabstract;
+            if (expectedabstract == "") {throw new ArgumentException("Abstract must not be an empty string");}
+            else if(expectedabstract == null) {throw new ArgumentNullException("Abstract must not be a null value");}
+            else{paperabstract = expectedabstract;}
         }
 
         public String getTitle()
