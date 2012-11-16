@@ -9,12 +9,12 @@
         <Label Content="Title:" Height="28" HorizontalAlignment="Left" Margin="12,30,0,0" Name="Title" VerticalAlignment="Top" />
         <Label Content="Author:" Height="28" HorizontalAlignment="Left" Margin="12,64,0,0" Name="Author" VerticalAlignment="Top" />
         <Label Content="Abstract:" Height="28" HorizontalAlignment="Left" Margin="12,132,0,0" Name="label2" VerticalAlignment="Top" />
-        <Label Content="Year:" HorizontalAlignment="Left" Margin="12,98,0,474" Name="Year" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="98,35,0,0" Name="titletext" VerticalAlignment="Top" Width="288" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="98,69,0,0" Name="authortext" VerticalAlignment="Top" Width="288" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="98,103,0,0" Name="yeartext" VerticalAlignment="Top" Width="59" />
         <TextBox Height="111" HorizontalAlignment="Left" Margin="98,137,0,0" Name="abstracttext" VerticalAlignment="Top" Width="427" />
         <Button Content="Add Paper" Height="23" HorizontalAlignment="Left" Margin="239,280,0,0" Name="addpaper" VerticalAlignment="Top" Width="147" Click="addpaper_Click" />
         <Button Content="Back" Height="23" HorizontalAlignment="Left" Margin="450,280,0,0" Name="home" VerticalAlignment="Top" Width="75" Click="home_Click" />
+        <Label Content="Title:" Height="28" HorizontalAlignment="Left" Margin="12,98,0,0" Name="title" VerticalAlignment="Top" />
     </Grid>
 </UserControl>

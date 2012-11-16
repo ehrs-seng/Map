@@ -12,14 +12,14 @@ namespace Map
         [TestMethod]
         public void AddNormalUniqueKeyword()
         {   
-            String expectedkeyword = "Testing";
+            string expectedkeyword = "Testing";
             Paper existingpaper = new Paper();
 
             existingpaper.addKeyword(expectedkeyword);
-            List<String> keywords = existingpaper.getListKeywords();
+            List<string> keywords = existingpaper.listKeywords();
 
-            String actual = keywords.Find(s => s == expectedkeyword);
-            Assert.AreEqual(actual, expectedkeyword);
+            string actual = keywords.Find(s => s.Equals(expectedkeyword));
+            Assert.AreEqual(actual, expectedkeyword);        
 
         }
 
@@ -30,9 +30,9 @@ namespace Map
             Paper existingpaper = new Paper();
 
             existingpaper.addKeyword(expectedkeyword);
-            List<String> keywords = existingpaper.getListKeywords();
+            List<String> keywords = existingpaper.listKeywords();
 
-            String actual = keywords.Find(s => s == expectedkeyword);
+            String actual = keywords.Find(s => s.Equals(expectedkeyword));
             Assert.AreEqual(actual, expectedkeyword);
 
         }
