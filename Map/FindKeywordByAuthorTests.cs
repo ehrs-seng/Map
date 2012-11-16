@@ -15,19 +15,55 @@ namespace Map
 
             //Create a new author with a keyword
             String expectedAuthor = "David Hume";
-            Author a = new Author(expectedAuthor);
             String expectedKeyword = "Doppler";
-            a.addKeyword(expectedKeyword);
+            Paper existingPaper = new Paper();
+            existingPaper.setAuthors();
+            existingPaper.setKeywords();
+            existingPaper.setAuthor(expectedAuthor);
+            existingPaper.addKeyword(expectedKeyword);
+            Boolean existAuthor = false;
+            Boolean existKeyword = false;
+            String exAuthor = "";
+            String exKeyword = "";
 
             //Check if the author names match
-            List<String> actualAuthorList = a.getAuthors();
-            String actualAuthor = actualAuthorList.Find(s => s == expectedAuthor);
-            Assert.AreEqual(actualAuthor, expectedAuthor);
+            List<string> actualAuthor = existingPaper.getAuthors();
+
+            foreach (String eAuthor in actualAuthor)
+            {
+                if (eAuthor == expectedAuthor)
+                {
+                    exAuthor = eAuthor;
+                    existAuthor = true;
+                    break;
+
+                }
+            }
+
+            if (existAuthor == true)
+            {
+                Assert.AreEqual(exAuthor, expectedAuthor);
+            }
 
             //Check if the keywords from the author match to the inputed keyword
-            List<String> actualKeywords = a.getAuthorKeywords(expectedAuthor);
-            String actual = actualKeywords.Find(s => s == expectedKeyword);
-            Assert.AreEqual(actualKeywords, expectedKeyword);
+
+            List<String> actualKeywords = existingPaper.getKeywords();
+
+            foreach (String Keyword in actualKeywords)
+            {
+                if (Keyword == expectedKeyword)
+                {
+                    exKeyword = Keyword;
+                    existKeyword = true;
+                    break;
+
+                }
+            }
+
+            if (existKeyword == true)
+            {
+                Assert.AreEqual(exKeyword, expectedKeyword);
+            }
         }
 
         [TestMethod]
@@ -35,156 +71,361 @@ namespace Map
         {
             //Create a new author with a keyword
             String expectedAuthor = "Stephaine123456";
-            Author a = new Author(expectedAuthor);
             String expectedKeyword = "Turkey";
-            a.addKeyword(expectedKeyword);
+            Paper existingPaper = new Paper();
+            existingPaper.setAuthors();
+            existingPaper.setKeywords();
+            existingPaper.setAuthor(expectedAuthor);
+            existingPaper.addKeyword(expectedKeyword);
+            Boolean existAuthor = false;
+            Boolean existKeyword = false;
+            String exAuthor = "";
+            String exKeyword = "";
 
             //Check if the author names match
-            List<String> actualAuthorList = a.getAuthors();
-            String actualAuthor = actualAuthorList.Find(s => s == expectedAuthor);
-            Assert.AreEqual(actualAuthor, expectedAuthor);
+            List<string> actualAuthor = existingPaper.getAuthors();
+
+            foreach (String eAuthor in actualAuthor)
+            {
+                if (eAuthor == expectedAuthor)
+                {
+                    exAuthor = eAuthor;
+                    existAuthor = true;
+                    break;
+
+                }
+            }
+
+            if (existAuthor == true)
+            {
+                Assert.AreEqual(exAuthor, expectedAuthor);
+            }
 
             //Check if the keywords from the author match to the inputed keyword
-            List<String> actualKeywords = a.getAuthorKeywords(expectedAuthor);
-            String actual = actualKeywords.Find(s => s == expectedKeyword);
-            Assert.AreEqual(actualKeywords, expectedKeyword);
+
+            List<String> actualKeywords = existingPaper.getKeywords();
+
+            foreach (String Keyword in actualKeywords)
+            {
+                if (Keyword == expectedKeyword)
+                {
+                    exKeyword = Keyword;
+                    existKeyword = true;
+                    break;
+
+                }
+            }
+
+            if (existKeyword == true)
+            {
+                Assert.AreEqual(exKeyword, expectedKeyword);
+            }
         }
 
         [TestMethod]
         public void FindAllNumericalAuthor()
         {
             //Create a new author with a keyword
-            String expectedAuthor ="4526123456";
-            Author a = new Author(expectedAuthor);
+            String expectedAuthor = "4526123456";
             String expectedKeyword = "Fusion";
-            a.addKeyword(expectedKeyword);
+            Paper existingPaper = new Paper();
+            existingPaper.setAuthors();
+            existingPaper.setKeywords();
+            existingPaper.setAuthor(expectedAuthor);
+            existingPaper.addKeyword(expectedKeyword);
+            Boolean existAuthor = false;
+            Boolean existKeyword = false;
+            String exAuthor = "";
+            String exKeyword = "";
 
             //Check if the author names match
-            List<String> actualAuthorList = a.getAuthors();
-            String actualAuthor = actualAuthorList.Find(s => s == expectedAuthor);
-            Assert.AreEqual(actualAuthor, expectedAuthor);
+            List<string> actualAuthor = existingPaper.getAuthors();
+
+            foreach (String eAuthor in actualAuthor)
+            {
+                if (eAuthor == expectedAuthor)
+                {
+                    exAuthor = eAuthor;
+                    existAuthor = true;
+                    break;
+
+                }
+            }
+
+            if (existAuthor == true)
+            {
+                Assert.AreEqual(exAuthor, expectedAuthor);
+            }
 
             //Check if the keywords from the author match to the inputed keyword
-            List<String> actualKeywords = a.getAuthorKeywords(expectedAuthor);
-            String actual = actualKeywords.Find(s => s == expectedKeyword);
-            Assert.AreEqual(actualKeywords, expectedKeyword);
+
+            List<String> actualKeywords = existingPaper.getKeywords();
+
+            foreach (String Keyword in actualKeywords)
+            {
+                if (Keyword == expectedKeyword)
+                {
+                    exKeyword = Keyword;
+                    existKeyword = true;
+                    break;
+
+                }
+            }
+
+            if (existKeyword == true)
+            {
+                Assert.AreEqual(exKeyword, expectedKeyword);
+            }
         }
 
         [TestMethod]
         public void FindPartialUnicodeAuthor()
         {
-
             //Create a new author with a keyword
-            String expectedAuthor ="Nürnberg";
-            Author a = new Author(expectedAuthor);
+            String expectedAuthor = "Nürnberg";
             String expectedKeyword = "Mathematics";
-            a.addKeyword(expectedKeyword);
+            Paper existingPaper = new Paper();
+            existingPaper.setAuthors();
+            existingPaper.setKeywords();
+            existingPaper.setAuthor(expectedAuthor);
+            existingPaper.addKeyword(expectedKeyword);
+            Boolean existAuthor = false;
+            Boolean existKeyword = false;
+            String exAuthor = "";
+            String exKeyword = "";
 
             //Check if the author names match
-            List<String> actualAuthorList = a.getAuthors();
-            String actualAuthor = actualAuthorList.Find(s => s == expectedAuthor);
-            Assert.AreEqual(actualAuthor, expectedAuthor);
+            List<string> actualAuthor = existingPaper.getAuthors();
+
+            foreach (String eAuthor in actualAuthor)
+            {
+                if (eAuthor == expectedAuthor)
+                {
+                    exAuthor = eAuthor;
+                    existAuthor = true;
+                    break;
+
+                }
+            }
+
+            if (existAuthor == true)
+            {
+                Assert.AreEqual(exAuthor, expectedAuthor);
+            }
 
             //Check if the keywords from the author match to the inputed keyword
-            List<String> actualKeywords = a.getAuthorKeywords(expectedAuthor);
-            String actual = actualKeywords.Find(s => s == expectedKeyword);
-            Assert.AreEqual(actualKeywords, expectedKeyword);
+
+            List<String> actualKeywords = existingPaper.getKeywords();
+
+            foreach (String Keyword in actualKeywords)
+            {
+                if (Keyword == expectedKeyword)
+                {
+                    exKeyword = Keyword;
+                    existKeyword = true;
+                    break;
+
+                }
+            }
+
+            if (existKeyword == true)
+            {
+                Assert.AreEqual(exKeyword, expectedKeyword);
+            }
+            
         }
 
-    [TestMethod]
+        [TestMethod]
         [ExpectedException(typeof(System.NullReferenceException), "Author has no keywords")]
         public void FindNoKeywordAuthor()
         {
-
-            //Create a new author with a keyword
             String expectedAuthor = "Nürnberg";
-            Author a = new Author(expectedAuthor);
+            Paper existingPaper = new Paper();
+            existingPaper.setAuthors();
+            existingPaper.setAuthor(expectedAuthor);
+            Boolean existAuthor = false;
+            Boolean existKeyword = true;
+            String exAuthor = "";
+            
 
             //Check if the author names match
-            List<String> actualAuthorList = a.getAuthors();
-            String actualAuthor = actualAuthorList.Find(s => s == expectedAuthor);
-            Assert.AreEqual(actualAuthor, expectedAuthor);
+            List<String> actualAuthor = existingPaper.getAuthors(); 
+            
 
-            //Returns an error of no keywords 
-            List<String> nonexistingKeywords = a.getAuthorKeywords(expectedAuthor);
-            Assert.AreEqual(nonexistingKeywords, null);
+            foreach (String eAuthor in actualAuthor)
+            {
+                if (eAuthor == expectedAuthor)
+                {
+                    exAuthor = eAuthor;
+                    existAuthor = true;
+                    break;
+
+                }
+            }
+
+            if (existAuthor == true)
+            {
+                Assert.AreEqual(exAuthor, expectedAuthor);
+            }
+
+            List<String> nonexistingKeywords = existingPaper.getKeywords();
+            Assert.AreEqual(null, nonexistingKeywords);
+
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Author does not exist")]
+        [ExpectedException(typeof(Exception), "Author does not exist")]
         public void FindNonExistingAuthor()
         {
+
             //Create a new author with a keyword
             String expectedAuthor = "John Smith";
-            Author a = new Author(expectedAuthor);
             String expectedKeyword = "Fusion";
-            a.addKeyword(expectedKeyword);
+            Paper existingPaper = new Paper();
+            existingPaper.setAuthors();
+            existingPaper.setKeywords();
+            existingPaper.setAuthor(expectedAuthor);
+            existingPaper.addKeyword(expectedKeyword);
+            Boolean existAuthor = false;
+            Boolean noExistingAuthor = true;
+            Boolean existKeyword = false;
+            String exAuthor = "";
+            String exKeyword = "";
 
             //Check if the author names match
-            List<String> actualAuthorList = a.getAuthors();
-            String actualAuthor = actualAuthorList.Find(s => s == expectedAuthor);
-            Assert.AreEqual(actualAuthor, expectedAuthor);
+            List<string> actualAuthor = existingPaper.getAuthors();
+
+            foreach (String eAuthor in actualAuthor)
+            {
+                if (eAuthor == expectedAuthor)
+                {
+                    exAuthor = eAuthor;
+                    existAuthor = true;
+                    break;
+
+                }
+            }
+
+            if (existAuthor == true)
+            {
+                Assert.AreEqual(exAuthor, expectedAuthor);
+            }
+
+            //Check if the keywords from the author match to the inputed keyword
+
+            List<String> actualKeywords = existingPaper.getKeywords();
+
+            foreach (String Keyword in actualKeywords)
+            {
+                if (Keyword == expectedKeyword)
+                {
+                    exKeyword = Keyword;
+                    existKeyword = true;
+                    break;
+
+                }
+            }
+
+            if (existKeyword == true)
+            {
+                Assert.AreEqual(exKeyword, expectedKeyword);
+            }
+
+
+           
 
             //Raises an error if the author does not exist
+            List<String> noactualAuthors = existingPaper.getAuthors();
             String nonExistingAuthor = "Mei Wang";
-            String invalidAuthor = actualAuthorList.Find(s => s == nonExistingAuthor);
-            Assert.AreEqual(invalidAuthor, null);
+            
+            foreach (String eAuthor in noactualAuthors)
+            {
+                if (eAuthor == nonExistingAuthor)
+                {
+                    exAuthor = eAuthor;
+                    noExistingAuthor = false;
+                    break;
+
+                }
+            }
+
+            if (noExistingAuthor == true)
+            {
+                Assert.AreEqual(true, noExistingAuthor);
+            }
+            
+            
+          
+            //Assert.AreEqual(noExistingAuthor, true);
+            
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Author name is invalid")]
+        [ExpectedException(typeof(NullReferenceException), "Author name is invalid")]
         public void UnicodeAuthor()
         {
             //The input author is unicode symbols
-            String unicodeAuthor = "╙φ¼╒≥│Θ╛╞";
-            Author a = new Author(unicodeAuthor);
+            String expectedAuthor = "╙φ¼╒≥│Θ╛╞";
+            Paper existingPaper = new Paper();
+            existingPaper.setAuthors();
+            existingPaper.setAuthor(expectedAuthor);
 
-            List<String> keywords = a.listKeywords(unicodeAuthor);
+            
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Author name is invalid")]
+        [ExpectedException(typeof(NullReferenceException), "Author name is invalid")]
         public void NullAuthor()
         {
                 //The input author is null
-                String nullInputAuthor = null;
-                Author a = new Author(nullInputAuthor);
+                String expectedAuthor = null;
+                Paper existingPaper = new Paper();
+                existingPaper.setAuthors();
+                existingPaper.setAuthor(expectedAuthor);
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Text field is empty")]
+        [ExpectedException(typeof(NullReferenceException), "Text field is empty")]
         public void SpaceAuthor()
         {
             //The input Author is full if spaces
-            String spaceInputAuthor = "               ";
-            Author a = new Author(spaceInputAuthor);
+            String expectedAuthor = "               "; 
+            Paper existingPaper = new Paper();
+            existingPaper.setAuthors();
+            existingPaper.setAuthor(expectedAuthor);
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Text field is empty")]
+        [ExpectedException(typeof(NullReferenceException), "Text field is empty")]
         public void TabAuthor()
         {
             //The input author is full of tabs
-            String tabInputAuthor = "                 ";
-            Author a = new Author(tabInputAuthor);
+            String expectedAuthor = "                 ";
+            Paper existingPaper = new Paper();
+            existingPaper.setAuthors();
+            existingPaper.setAuthor(expectedAuthor);
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Text field is empty")]
+        [ExpectedException(typeof(NullReferenceException), "Text field is empty")]
         public void emptyAuthor()
         {
             //The input author is a empty string
-            String emptyInputAuthor = "";
-            Author a = new Author(emptyInputAuthor);
+            String expectedAuthor = "";
+            Paper existingPaper = new Paper();
+            existingPaper.setAuthors();
+            existingPaper.setAuthor(expectedAuthor);
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Invalid author name")]
+        [ExpectedException(typeof(NullReferenceException), "Invalid author name")]
         public void invalidAuthor()
         {
             //The input author is a bunch of text symbols
-            String emptyInputAuthor = "\t \n \t";
-            Author a = new Author(emptyInputAuthor);
+            String expectedAuthor = "\t \n \t";
+            Paper existingPaper = new Paper();
+            existingPaper.setAuthors();
+            existingPaper.setAuthor(expectedAuthor);
         }
     }
 }

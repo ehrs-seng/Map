@@ -16,10 +16,20 @@ namespace Map
 
         public Paper()
         {
-            authors = new List<string>();
-            keywords = new List<string>();
+            
+            
         }
 
+        public void setAuthors()
+        {
+            authors = new List<string>();
+        }
+
+        public void setKeywords()
+        {
+            keywords = new List<string>();
+        }
+        
         public void addKeyword(string p)
         {
             if (keywords.Contains(p))
@@ -63,10 +73,10 @@ namespace Map
                 throw new ArgumentException("Author must not be an empty string");
             }
 
-            else if (!System.Text.RegularExpressions.Regex.IsMatch(expectedauthor, "[a-z]|[A-Z]"))
+            /*else if (!System.Text.RegularExpressions.Regex.IsMatch(expectedauthor, "[a-z]|[A-Z]"))
             {
                 throw new ArgumentException("Author must contain letters");
-            }
+            }*/
             else if (expectedauthor == null)
             {
                 throw new ArgumentNullException("Author must not be a null value");
@@ -116,5 +126,7 @@ namespace Map
         {
             return keywords;
         }
+
+        
     }
 }
