@@ -17,8 +17,8 @@ namespace Map
         public static void addPaper(Database database, Paper existingPaper)
         {
             // verify that arguments are valid
-            if (existingPaper == null) throw new ArgumentNullException();
-            if (database == null) throw new ArgumentNullException();
+            if (existingPaper == null) return;
+            if (database == null) return;
 
             // add paper to database
             Database.getAllPapers(database).Add(existingPaper);
@@ -27,7 +27,7 @@ namespace Map
         public static void deleteAllPapers(Database database)
         {
             // verify that arguments are valid
-            if (database == null) throw new ArgumentNullException();
+            if (database == null) return;
 
             // clear database's papers
             database.allPapers.Clear();
@@ -36,9 +36,9 @@ namespace Map
         public static void deletePaperByAbstract(Database database, string expectedAbstract)
         {
             // verify that arguments are valid
-            if (expectedAbstract == "") throw new ArgumentException();
-            if (expectedAbstract == null) throw new ArgumentNullException();
-            if (database == null) throw new ArgumentNullException();
+            if (expectedAbstract == "") return;
+            if (expectedAbstract == null) return;
+            if (database == null) return;
 
             // scan through all papers
             for (int i = 0; i < Database.getAllPapers(database).Count; i++)
@@ -52,9 +52,9 @@ namespace Map
         public static void deletePaperByAuthor(Database database, string expectedAuthor)
         {
             // verify that arguments are valid
-            if (expectedAuthor == "") throw new ArgumentException();
-            if (expectedAuthor == null) throw new ArgumentNullException();
-            if (database == null) throw new ArgumentNullException();
+            if (expectedAuthor == "") return;
+            if (expectedAuthor == null) return;
+            if (database == null) return;
 
             // scan through all papers
             for (int i = 0; i < Database.getAllPapers(database).Count; i++)
@@ -75,8 +75,8 @@ namespace Map
         public static void deletePaperByDatabaseID(Database database, int ID)
         {
             // verify that arguments are valid
-            if (ID < 0) throw new ArgumentException();
-            if (database == null) throw new ArgumentNullException();
+            if (ID < 0) return;
+            if (database == null) return;
 
             // delete paper at element position ID from database
             Database.getAllPapers(database).RemoveAt(ID);
@@ -85,9 +85,9 @@ namespace Map
         public static void deletePaperByKeyword(Database database, string expectedKeyword)
         {
             // verify that arguments are valid
-            if (expectedKeyword == "") throw new ArgumentException();
-            if (expectedKeyword == null) throw new ArgumentNullException();
-            if (database == null) throw new ArgumentNullException();
+            if (expectedKeyword == "") return;
+            if (expectedKeyword == null) return;
+            if (database == null) return;
 
             // scan through all papers
             for (int i = 0; i < Database.getAllPapers(database).Count; i++)
@@ -108,8 +108,8 @@ namespace Map
         public static void deletePaperByPaperReference(Database database, Paper query)
         {
             // verify that arguments are valid
-            if (query == null) throw new ArgumentNullException();
-            if (database == null) throw new ArgumentNullException();
+            if (query == null) return;
+            if (database == null) return;
 
             // scan through all papers
             for (int i = 0; i < Database.getAllPapers(database).Count; i++)
@@ -124,9 +124,9 @@ namespace Map
         public static void deletePaperByTitle(Database database, string expectedTitle)
         {
             // verify that arguments are valid
-            if (expectedTitle == "") throw new ArgumentException();
-            if (expectedTitle == null) throw new ArgumentNullException();
-            if (database == null) throw new ArgumentNullException();
+            if (expectedTitle == "") return;
+            if (expectedTitle == null) return;
+            if (database == null) return;
 
             // scan through all papers
             for (int i = 0; i < Database.getAllPapers(database).Count; i++)
@@ -140,8 +140,8 @@ namespace Map
         public static void deletePaperByYear(Database database, int expectedYear)
         {
             // verify that arguments are valid
-            if (expectedYear < 0) throw new ArgumentException();
-            if (database == null) throw new ArgumentNullException();
+            if (expectedYear < 0) return;
+            if (database == null) return;
 
             // scan through all papers
             for (int i = 0; i < Database.getAllPapers(database).Count; i++)
@@ -155,7 +155,7 @@ namespace Map
         public static List<Paper> getAllPapers(Database database)
         {
             // verify that arguments are valid
-            if (database == null) throw new ArgumentNullException();
+            if (database == null) return null;
 
             // return database's papers
             return database.allPapers;
@@ -164,8 +164,8 @@ namespace Map
         public static int getDatabaseIDByPaperReference(Database database, Paper query)
         {
             // verify that arguments are valid
-            if (query == null) throw new ArgumentNullException();
-            if (database == null) throw new ArgumentNullException();
+            if (query == null) return -1;
+            if (database == null) return -1;
 
             // scan through all papers
             for (int i = 0; i < Database.getAllPapers(database).Count; i++)
@@ -183,8 +183,8 @@ namespace Map
         public static Paper getPaperByDatabaseID(Database database, int ID)
         {
             // verify that arguments are valid
-            if (ID < 0) throw new ArgumentException();
-            if (database == null) throw new ArgumentNullException();
+            if (ID < 0) return null;
+            if (database == null) return null;
 
             // return paper at element position ID
             return Database.getAllPapers(database).ElementAt(ID);
@@ -193,9 +193,9 @@ namespace Map
         public static List<Paper> searchByAbstract(Database database, string expectedAbstract)
         {
             // verify that arguments are valid
-            if (expectedAbstract == "") throw new ArgumentException();
-            if (expectedAbstract == null) throw new ArgumentNullException();
-            if (database == null) throw new ArgumentNullException();
+            if (expectedAbstract == "") return null;
+            if (expectedAbstract == null) return null;
+            if (database == null) return null;
 
             List<Paper> result = new List<Paper>();
 
@@ -214,9 +214,9 @@ namespace Map
         public static List<Paper> searchByAuthor(Database database, string expectedAuthor)
         {
             // verify that arguments are valid
-            if (expectedAuthor == "") throw new ArgumentException();
-            if (expectedAuthor == null) throw new ArgumentNullException();
-            if (database == null) throw new ArgumentNullException();
+            if (expectedAuthor == "") return null;
+            if (expectedAuthor == null) return null;
+            if (database == null) return null;
 
             List<Paper> result = new List<Paper>();
 
@@ -244,10 +244,10 @@ namespace Map
             // verify that arguments are valid
             for (int i = 0; i < expectedAuthors.Count; i++)
             {
-                if (expectedAuthors.ElementAt(i) == "") throw new ArgumentException();
-                if (expectedAuthors.ElementAt(i) == null) throw new ArgumentNullException();
+                if (expectedAuthors.ElementAt(i) == "") return null;
+                if (expectedAuthors.ElementAt(i) == null) return null;
             }
-            if (database == null) throw new ArgumentNullException();
+            if (database == null) return null;
 
             List<Paper> result = new List<Paper>();
             bool paperUsed = false;
@@ -286,9 +286,9 @@ namespace Map
         public static List<Paper> searchByKeyword(Database database, string expectedKeyword)
         {
             // verify that arguments are valid
-            if (expectedKeyword == "") throw new ArgumentException();
-            if (expectedKeyword == null) throw new ArgumentNullException();
-            if (database == null) throw new ArgumentNullException();
+            if (expectedKeyword == "") return null;
+            if (expectedKeyword == null) return null;
+            if (database == null) return null;
 
             List<Paper> result = new List<Paper>();
 
@@ -316,10 +316,10 @@ namespace Map
             // verify that arguments are valid
             for (int i = 0; i < expectedKeywords.Count; i++)
             {
-                if (expectedKeywords.ElementAt(i) == "") throw new ArgumentException();
-                if (expectedKeywords.ElementAt(i) == null) throw new ArgumentNullException();
+                if (expectedKeywords.ElementAt(i) == "") return null;
+                if (expectedKeywords.ElementAt(i) == null) return null;
             }
-            if (database == null) throw new ArgumentNullException();
+            if (database == null) return null;
 
             List<Paper> result = new List<Paper>();
             bool paperUsed = false;
@@ -358,9 +358,9 @@ namespace Map
         public static List<Paper> searchByTitle(Database database, string expectedTitle)
         {
             // verify that arguments are valid
-            if (expectedTitle == "") throw new ArgumentException();
-            if (expectedTitle == null) throw new ArgumentNullException();
-            if (database == null) throw new ArgumentNullException();
+            if (expectedTitle == "") return null;
+            if (expectedTitle == null) return null;
+            if (database == null) return null;
 
             List<Paper> result = new List<Paper>();
 
@@ -379,8 +379,8 @@ namespace Map
         public static List<Paper> searchByYear(Database database, int expectedYear)
         {
             // verify that arguments are valid
-            if (expectedYear < 0) throw new ArgumentException();
-            if (database == null) throw new ArgumentNullException();
+            if (expectedYear < 0) return null;
+            if (database == null) return null;
 
             List<Paper> result = new List<Paper>();
 
@@ -395,17 +395,5 @@ namespace Map
             if (result.Count > 0) return result;
             else return null;
         }
-
-        /*  I've implemented searchByAuthor up above as a static method.  To use this, change your code from:
-                    myDatabase.searchByAuthor(possibleOtherDatabase, expectedAuthor);
-            to:
-                    Database.searchByAuthor(myDatabase, expectedAuthor);
-            
-            The reason for the change is the possible ambiguity and redundancy I noticed, where you could be sending
-            one database to another database for a query.  However, any data in the other database would be
-            entirely unnecessary to the query, and could possibly interfere with its functionality if it misinterpreted
-            where to reference allPapers from.  Please change your code accordingly.
-         
-                                                                    -Ryan                           */
     }
 }

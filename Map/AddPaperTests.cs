@@ -130,7 +130,7 @@ namespace Map
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Year must not be negative")]
+        [ExpectedException(typeof(ArgumentOutOfRangeException), "Year must not be negative")]
         public void AddNegativeYear()
         {
             int year = -1234;
@@ -141,7 +141,7 @@ namespace Map
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Year should not contain more than four digits")]
+        [ExpectedException(typeof(ArgumentOutOfRangeException), "Year should not contain more than four digits")]
         public void AddMoreThanFourDigitYear()
         {
             int year = 12345;
@@ -154,7 +154,7 @@ namespace Map
         //skipping test for alphanumeric, due to typecasting of int
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Year should not be zero")]
+        [ExpectedException(typeof(ArgumentOutOfRangeException), "Year should not be zero")]
         public void AddZeroYear()
         {
             int year = 0;

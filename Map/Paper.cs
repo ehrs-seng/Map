@@ -89,7 +89,10 @@ namespace Map
 
         public void setYear(int expectedyear)
         {
-            year = expectedyear;
+            if (expectedyear < 0) { throw new ArgumentOutOfRangeException("Year must not be negative"); }
+            else if (expectedyear > 9999) { throw new ArgumentOutOfRangeException("Year should not contain more than four digits"); }
+            else if (expectedyear == 0) { throw new ArgumentOutOfRangeException("Year should not be zero"); } // can combine with <0 test?
+            else{year = expectedyear;}
         }
 
         public void setAbstract(string expectedabstract)
