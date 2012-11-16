@@ -1,0 +1,13 @@
+C:\Users\Ho Wai Yung\SENG301Part4\Map\MApp\bin\Debug\MApp.exe
+C:\Users\Ho Wai Yung\SENG301Part4\Map\MApp\bin\Debug\MApp.pdb
+C:\Users\Ho Wai Yung\SENG301Part4\Map\MApp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ho Wai Yung\SENG301Part4\Map\MApp\obj\x86\Debug\MainWindow.baml
+C:\Users\Ho Wai Yung\SENG301Part4\Map\MApp\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Ho Wai Yung\SENG301Part4\Map\MApp\obj\x86\Debug\App.g.cs
+C:\Users\Ho Wai Yung\SENG301Part4\Map\MApp\obj\x86\Debug\MApp_MarkupCompile.cache
+C:\Users\Ho Wai Yung\SENG301Part4\Map\MApp\obj\x86\Debug\MApp.g.resources
+C:\Users\Ho Wai Yung\SENG301Part4\Map\MApp\obj\x86\Debug\MApp.Properties.Resources.resources
+C:\Users\Ho Wai Yung\SENG301Part4\Map\MApp\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Ho Wai Yung\SENG301Part4\Map\MApp\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Ho Wai Yung\SENG301Part4\Map\MApp\obj\x86\Debug\MApp.exe
+C:\Users\Ho Wai Yung\SENG301Part4\Map\MApp\obj\x86\Debug\MApp.pdb

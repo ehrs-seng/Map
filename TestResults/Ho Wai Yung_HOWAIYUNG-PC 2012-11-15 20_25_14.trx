@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7a5552c8-af89-4473-a179-0a3f28733479" name="Ho Wai Yung@HOWAIYUNG-PC 2012-11-15 20:25:14" runUser="HoWaiYung-PC\Ho Wai Yung" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="19f1e08e-e37f-44cb-a353-ec143923a7f4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Ho Wai Yung_HOWAIYUNG-PC 2012-11-15 20_25_14" />
+  </TestSettings>
+  <Times creation="2012-11-15T20:25:14.7835473-07:00" queuing="2012-11-15T20:25:17.0366762-07:00" start="2012-11-15T20:25:17.1356819-07:00" finish="2012-11-15T20:25:29.6453974-07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="44" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="43" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="HOWAIYUNG-PC" outcome="Error" timestamp="2012-11-15T20:25:29.6423972-07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddAuthorNumericalAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="78f4d1d3-be89-6485-aaa1-6c2e5551717a">
+      <Execution id="a7bd84c4-1148-49d3-b47f-b775c3bff545" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddAuthorNumericalAuthor" />
+    </UnitTest>
+    <UnitTest name="AddNumericalTitle" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="c06afa71-2f07-770f-d397-6497f0861191">
+      <Execution id="4c9b32d1-d718-4f6d-bb53-35ebfa5d3dcb" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNumericalTitle" />
+    </UnitTest>
+    <UnitTest name="UnicodeAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="de8c182f-b223-ca86-caf8-d808945a3a91">
+      <Execution id="9918a5af-2476-4900-8525-cea8dc986b88" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UnicodeAuthor" />
+    </UnitTest>
+    <UnitTest name="FindNoKeywordAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="a629a122-196f-9169-0a2e-782ce464b595">
+      <Execution id="2bd60e40-9f48-4704-92e0-93cda3aa1f9d" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindNoKeywordAuthor" />
+    </UnitTest>
+    <UnitTest name="AddAlphanumericUniqueKeyword" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="68889c4c-4f61-56af-303c-fa6434c9be48">
+      <Execution id="4d2923e4-1709-452a-b6bd-987bba1cf583" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddAlphanumericUniqueKeyword" />
+    </UnitTest>
+    <UnitTest name="AddNullStringTitle" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="267a657e-ae23-c41f-c328-502483d45d28">
+      <Execution id="194ae345-832d-4dbe-b132-e8e1860895ee" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNullStringTitle" />
+    </UnitTest>
+    <UnitTest name="SearchProblem_NullKeywordGiven" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="af484430-6570-c227-4a07-935cbbb409db">
+      <Execution id="f17596f4-fbff-4fb1-a842-6dff698839de" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.SearchPapersWKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchProblem_NullKeywordGiven" />
+    </UnitTest>
+    <UnitTest name="AddAlphanumericTitle" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="6a24927b-311e-5ec4-afa3-631f4f3ed64f">
+      <Execution id="bcf7f4d3-745a-4638-9f90-f36ffeb1d3bb" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddAlphanumericTitle" />
+    </UnitTest>
+    <UnitTest name="NullAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="7b3bd826-2935-d997-c1b7-02ca9a4a707a">
+      <Execution id="b3bb7891-b3cc-46d6-974d-a9ec446657fb" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullAuthor" />
+    </UnitTest>
+    <UnitTest name="FindPartialNumericalAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="7f1db94b-22b0-30cf-3893-fa8638658470">
+      <Execution id="5bb1068c-5736-42dd-85d1-f8a6e51af167" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindPartialNumericalAuthor" />
+    </UnitTest>
+    <UnitTest name="SearchNormal_ExistingKeyword_SinglePaper" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="25cf3559-68a7-4c93-4725-e571ad02e3e7">
+      <Execution id="c1bd4a20-8181-4380-80f8-2668297fa9ed" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.SearchPapersWKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchNormal_ExistingKeyword_SinglePaper" />
+    </UnitTest>
+    <UnitTest name="SearchNormal_NonExistingKeyword" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="bb18676d-377c-a4ae-690a-6c4a8f00aa46">
+      <Execution id="b19f687c-ef50-4923-be08-82e9d0b5513f" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.SearchPapersWKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchNormal_NonExistingKeyword" />
+    </UnitTest>
+    <UnitTest name="AddNullStringKeyword" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="248afc99-486e-4088-6a24-ffcee580f3a7">
+      <Execution id="31f7f975-e329-4883-a089-47aff173507f" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNullStringKeyword" />
+    </UnitTest>
+    <UnitTest name="TabAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="ebe59462-0919-d773-41c7-20b1f87e0c62">
+      <Execution id="d2f40867-fc4f-46c9-8c69-51fd79ef7190" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TabAuthor" />
+    </UnitTest>
+    <UnitTest name="AddEmptyStringTitle" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="cf1bd0a7-ba2a-cfcf-0db4-f40cc25e59f3">
+      <Execution id="e117a50a-b7e9-482e-bc70-114350da229a" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddEmptyStringTitle" />
+    </UnitTest>
+    <UnitTest name="AddNumericalAbstract" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="1d291408-4667-3a4b-5dfb-c1aebbcb6af6">
+      <Execution id="f89d89ef-ddbb-41da-b83f-4e30cd185310" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNumericalAbstract" />
+    </UnitTest>
+    <UnitTest name="AddEmptyStringAbstract" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="4e1971b5-00e6-253b-0f9f-05a2c882e771">
+      <Execution id="7e700df6-b8fd-4166-b275-84cac2ae2d03" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddEmptyStringAbstract" />
+    </UnitTest>
+    <UnitTest name="AddNormalAbstract" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="4bea2438-3bd3-0aa0-a128-7c8e7bdf72c1">
+      <Execution id="f4bdf4f3-4bae-4ff3-bd7d-5ddae7464a19" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNormalAbstract" />
+    </UnitTest>
+    <UnitTest name="AddDuplicateKeyword" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="a33351ea-6262-62cb-6e29-5d799198865f">
+      <Execution id="003530d6-7fa9-4444-987c-04979df778bd" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddDuplicateKeyword" />
+    </UnitTest>
+    <UnitTest name="FindNormalAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="c61b5fbd-1990-718e-6b92-82f56b46c76a">
+      <Execution id="a3a9f977-0fec-430d-8074-33615876a21f" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindNormalAuthor" />
+    </UnitTest>
+    <UnitTest name="AddMoreThanFourDigitYear" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="8953ab0f-d9d6-7dc3-9fc6-6ca918d9894b">
+      <Execution id="69e55c8e-e4f3-4289-91ea-d8f2c5ae5d23" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddMoreThanFourDigitYear" />
+    </UnitTest>
+    <UnitTest name="SearchProblem_EmptyKeywordGiven" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="49657f0b-0389-ebf1-d8fe-4e4d913952c9">
+      <Execution id="018ac019-b881-44e2-a507-4a8433537923" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.SearchPapersWKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchProblem_EmptyKeywordGiven" />
+    </UnitTest>
+    <UnitTest name="AddNormalAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="2f7e5ec9-b761-a5a2-2844-4c787d4cec40">
+      <Execution id="6888e84f-7cda-4e45-ba8a-e516bfd2aead" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNormalAuthor" />
+    </UnitTest>
+    <UnitTest name="AddNegativeYear" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="4d7af9cf-d876-45d9-06be-1182d47cf877">
+      <Execution id="84292e34-1850-4acb-9e29-dfd6adb7a6a0" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNegativeYear" />
+    </UnitTest>
+    <UnitTest name="AddNormalUniqueKeyword" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="9834602e-83df-a9b9-5975-c498962fa4b4">
+      <Execution id="c3ebf50d-e5fb-4168-9bb8-99c56e611782" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNormalUniqueKeyword" />
+    </UnitTest>
+    <UnitTest name="FindPartialUnicodeAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="401fd3f5-883b-6806-028c-ee2f9d46a707">
+      <Execution id="c0788de1-d9c8-42ec-8222-1a5cad01957a" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindPartialUnicodeAuthor" />
+    </UnitTest>
+    <UnitTest name="SearchProblem_EmptyDatabase" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="f88b0f97-6095-93ab-4570-ffad36b75fd0">
+      <Execution id="f7db3617-908c-4cd1-830c-a9dd5c2d7ad2" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.SearchPapersWKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchProblem_EmptyDatabase" />
+    </UnitTest>
+    <UnitTest name="AddNumericalKeyword" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="a3da25ba-3dfd-42b7-2d2b-f031c0bacd59">
+      <Execution id="a0963bf7-f4f9-47b4-9b64-af6c2662c28f" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNumericalKeyword" />
+    </UnitTest>
+    <UnitTest name="emptyAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="47c87be3-6997-cb09-ee47-e5831347fc33">
+      <Execution id="e5581be8-2f0d-4358-a904-1a0ee07cd3b5" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="emptyAuthor" />
+    </UnitTest>
+    <UnitTest name="FindNonExistingAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="748dc392-9274-c2c3-1136-a6594e65bcfb">
+      <Execution id="ca14beb3-b0f7-4e97-a22d-be84d91faefe" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindNonExistingAuthor" />
+    </UnitTest>
+    <UnitTest name="AddNormalTitle" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="0dbc954f-88fa-593e-d914-26df3336519d">
+      <Execution id="b94dcdaa-2082-4196-b490-5d8e616a5c61" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNormalTitle" />
+    </UnitTest>
+    <UnitTest name="SearchNormal_ExistingKeyword_MultiplePapers" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="78c22366-7126-37de-d3a3-f289174c28b4">
+      <Execution id="50e76437-34c1-4223-9599-fe0b7997684f" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.SearchPapersWKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchNormal_ExistingKeyword_MultiplePapers" />
+    </UnitTest>
+    <UnitTest name="AddEmptyStringAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="3dd49a30-2146-1b41-47f1-c0568797f0ad">
+      <Execution id="e71c3151-4ab6-4e26-842a-3774d698e32a" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddEmptyStringAuthor" />
+    </UnitTest>
+    <UnitTest name="AddAuthorNullStringAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="392d1eb5-82bb-ac02-d5b1-27f1ba3ecee2">
+      <Execution id="df4f56c5-9ba9-46a4-8917-907d266b71f5" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddAuthorNullStringAuthor" />
+    </UnitTest>
+    <UnitTest name="AddAlphanumericAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="337dc798-7d3e-2e4d-9ce1-6ea363bf1ba8">
+      <Execution id="9030188d-70cc-418f-84c7-860c3fa99991" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddAlphanumericAuthor" />
+    </UnitTest>
+    <UnitTest name="AddAlphanumericAbstract" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="37aec174-09d0-ad29-f0c0-2cc14c27bb7d">
+      <Execution id="c97ddbee-9021-4d7b-969c-bee257ba63e1" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddAlphanumericAbstract" />
+    </UnitTest>
+    <UnitTest name="FindAllNumericalAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="9c148ebc-5ce5-69f8-94c2-a363b6b499cf">
+      <Execution id="da8487d8-28e0-4145-af47-c0d99ee57aee" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindAllNumericalAuthor" />
+    </UnitTest>
+    <UnitTest name="RemoveNormalUniqueKeyword" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="854266d0-8eb4-f021-1b4e-cabb7a37e4e9">
+      <Execution id="08bc3257-0ec1-41cd-abaa-6b653a0ba5d5" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveNormalUniqueKeyword" />
+    </UnitTest>
+    <UnitTest name="SearchProblem_NullDatabase" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="b62d274e-24fb-61e6-6c74-6539a7114162">
+      <Execution id="1e128e9a-a934-46b3-9537-601743012f91" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.SearchPapersWKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchProblem_NullDatabase" />
+    </UnitTest>
+    <UnitTest name="AddEmptyStringKeyword" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="a78f5112-68fe-7337-9015-2fd177eb0e6e">
+      <Execution id="e777e6d0-f9a8-46ef-aea7-3187575dc243" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddKeywordTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddEmptyStringKeyword" />
+    </UnitTest>
+    <UnitTest name="AddNullAbstract" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="5277dbba-7428-9a5c-2cb4-92e09a85fdd0">
+      <Execution id="06562816-d6ae-45ea-b549-6c869bb77294" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNullAbstract" />
+    </UnitTest>
+    <UnitTest name="SpaceAuthor" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="7b94a73f-3b57-c3f4-7f9b-558acb4a87b2">
+      <Execution id="300f1232-0368-427e-80e2-910d96c88226" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.FindKeywordByAuthorTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SpaceAuthor" />
+    </UnitTest>
+    <UnitTest name="AddZeroYear" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="e6daca45-d31d-d05e-07d8-5d1d6e220219">
+      <Execution id="8fe6bb63-026a-462a-b670-f889234ca625" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddZeroYear" />
+    </UnitTest>
+    <UnitTest name="AddNormalYear" storage="c:\users\ho wai yung\seng301part4\map\map\bin\debug\map.dll" id="6b363e6b-6289-e0ea-3146-de3ddc6b3d24">
+      <Execution id="58e58155-6d72-4b74-97ee-f8c89adc0e4c" />
+      <TestMethod codeBase="C:/Users/Ho Wai Yung/SENG301Part4/Map/Map/bin/Debug/Map.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Map.AddPaperTests, Map, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNormalYear" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c61b5fbd-1990-718e-6b92-82f56b46c76a" executionId="a3a9f977-0fec-430d-8074-33615876a21f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f1db94b-22b0-30cf-3893-fa8638658470" executionId="5bb1068c-5736-42dd-85d1-f8a6e51af167" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c148ebc-5ce5-69f8-94c2-a363b6b499cf" executionId="da8487d8-28e0-4145-af47-c0d99ee57aee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="401fd3f5-883b-6806-028c-ee2f9d46a707" executionId="c0788de1-d9c8-42ec-8222-1a5cad01957a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a629a122-196f-9169-0a2e-782ce464b595" executionId="2bd60e40-9f48-4704-92e0-93cda3aa1f9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="748dc392-9274-c2c3-1136-a6594e65bcfb" executionId="ca14beb3-b0f7-4e97-a22d-be84d91faefe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de8c182f-b223-ca86-caf8-d808945a3a91" executionId="9918a5af-2476-4900-8525-cea8dc986b88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b3bd826-2935-d997-c1b7-02ca9a4a707a" executionId="b3bb7891-b3cc-46d6-974d-a9ec446657fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b94a73f-3b57-c3f4-7f9b-558acb4a87b2" executionId="300f1232-0368-427e-80e2-910d96c88226" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebe59462-0919-d773-41c7-20b1f87e0c62" executionId="d2f40867-fc4f-46c9-8c69-51fd79ef7190" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47c87be3-6997-cb09-ee47-e5831347fc33" executionId="e5581be8-2f0d-4358-a904-1a0ee07cd3b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0dbc954f-88fa-593e-d914-26df3336519d" executionId="b94dcdaa-2082-4196-b490-5d8e616a5c61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a24927b-311e-5ec4-afa3-631f4f3ed64f" executionId="bcf7f4d3-745a-4638-9f90-f36ffeb1d3bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf1bd0a7-ba2a-cfcf-0db4-f40cc25e59f3" executionId="e117a50a-b7e9-482e-bc70-114350da229a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c06afa71-2f07-770f-d397-6497f0861191" executionId="4c9b32d1-d718-4f6d-bb53-35ebfa5d3dcb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="267a657e-ae23-c41f-c328-502483d45d28" executionId="194ae345-832d-4dbe-b132-e8e1860895ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f7e5ec9-b761-a5a2-2844-4c787d4cec40" executionId="6888e84f-7cda-4e45-ba8a-e516bfd2aead" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="337dc798-7d3e-2e4d-9ce1-6ea363bf1ba8" executionId="9030188d-70cc-418f-84c7-860c3fa99991" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3dd49a30-2146-1b41-47f1-c0568797f0ad" executionId="e71c3151-4ab6-4e26-842a-3774d698e32a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78f4d1d3-be89-6485-aaa1-6c2e5551717a" executionId="a7bd84c4-1148-49d3-b47f-b775c3bff545" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="392d1eb5-82bb-ac02-d5b1-27f1ba3ecee2" executionId="df4f56c5-9ba9-46a4-8917-907d266b71f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b363e6b-6289-e0ea-3146-de3ddc6b3d24" executionId="58e58155-6d72-4b74-97ee-f8c89adc0e4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d7af9cf-d876-45d9-06be-1182d47cf877" executionId="84292e34-1850-4acb-9e29-dfd6adb7a6a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8953ab0f-d9d6-7dc3-9fc6-6ca918d9894b" executionId="69e55c8e-e4f3-4289-91ea-d8f2c5ae5d23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6daca45-d31d-d05e-07d8-5d1d6e220219" executionId="8fe6bb63-026a-462a-b670-f889234ca625" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4bea2438-3bd3-0aa0-a128-7c8e7bdf72c1" executionId="f4bdf4f3-4bae-4ff3-bd7d-5ddae7464a19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37aec174-09d0-ad29-f0c0-2cc14c27bb7d" executionId="c97ddbee-9021-4d7b-969c-bee257ba63e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e1971b5-00e6-253b-0f9f-05a2c882e771" executionId="7e700df6-b8fd-4166-b275-84cac2ae2d03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d291408-4667-3a4b-5dfb-c1aebbcb6af6" executionId="f89d89ef-ddbb-41da-b83f-4e30cd185310" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5277dbba-7428-9a5c-2cb4-92e09a85fdd0" executionId="06562816-d6ae-45ea-b549-6c869bb77294" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9834602e-83df-a9b9-5975-c498962fa4b4" executionId="c3ebf50d-e5fb-4168-9bb8-99c56e611782" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68889c4c-4f61-56af-303c-fa6434c9be48" executionId="4d2923e4-1709-452a-b6bd-987bba1cf583" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="854266d0-8eb4-f021-1b4e-cabb7a37e4e9" executionId="08bc3257-0ec1-41cd-abaa-6b653a0ba5d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a33351ea-6262-62cb-6e29-5d799198865f" executionId="003530d6-7fa9-4444-987c-04979df778bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a78f5112-68fe-7337-9015-2fd177eb0e6e" executionId="e777e6d0-f9a8-46ef-aea7-3187575dc243" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3da25ba-3dfd-42b7-2d2b-f031c0bacd59" executionId="a0963bf7-f4f9-47b4-9b64-af6c2662c28f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="248afc99-486e-4088-6a24-ffcee580f3a7" executionId="31f7f975-e329-4883-a089-47aff173507f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25cf3559-68a7-4c93-4725-e571ad02e3e7" executionId="c1bd4a20-8181-4380-80f8-2668297fa9ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb18676d-377c-a4ae-690a-6c4a8f00aa46" executionId="b19f687c-ef50-4923-be08-82e9d0b5513f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78c22366-7126-37de-d3a3-f289174c28b4" executionId="50e76437-34c1-4223-9599-fe0b7997684f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af484430-6570-c227-4a07-935cbbb409db" executionId="f17596f4-fbff-4fb1-a842-6dff698839de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49657f0b-0389-ebf1-d8fe-4e4d913952c9" executionId="018ac019-b881-44e2-a507-4a8433537923" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f88b0f97-6095-93ab-4570-ffad36b75fd0" executionId="f7db3617-908c-4cd1-830c-a9dd5c2d7ad2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b62d274e-24fb-61e6-6c74-6539a7114162" executionId="1e128e9a-a934-46b3-9537-601743012f91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a3a9f977-0fec-430d-8074-33615876a21f" testId="c61b5fbd-1990-718e-6b92-82f56b46c76a" testName="FindNormalAuthor" computerName="HOWAIYUNG-PC" duration="00:00:12.4777137" startTime="2012-11-15T20:25:17.1656836-07:00" endTime="2012-11-15T20:25:29.6433973-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3a9f977-0fec-430d-8074-33615876a21f">
+    </UnitTestResult>
+    <UnitTestResult executionId="5bb1068c-5736-42dd-85d1-f8a6e51af167" testId="7f1db94b-22b0-30cf-3893-fa8638658470" testName="FindPartialNumericalAuthor" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bb1068c-5736-42dd-85d1-f8a6e51af167">
+    </UnitTestResult>
+    <UnitTestResult executionId="da8487d8-28e0-4145-af47-c0d99ee57aee" testId="9c148ebc-5ce5-69f8-94c2-a363b6b499cf" testName="FindAllNumericalAuthor" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da8487d8-28e0-4145-af47-c0d99ee57aee">
+    </UnitTestResult>
+    <UnitTestResult executionId="c0788de1-d9c8-42ec-8222-1a5cad01957a" testId="401fd3f5-883b-6806-028c-ee2f9d46a707" testName="FindPartialUnicodeAuthor" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0788de1-d9c8-42ec-8222-1a5cad01957a">
+    </UnitTestResult>
+    <UnitTestResult executionId="2bd60e40-9f48-4704-92e0-93cda3aa1f9d" testId="a629a122-196f-9169-0a2e-782ce464b595" testName="FindNoKeywordAuthor" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2bd60e40-9f48-4704-92e0-93cda3aa1f9d">
+    </UnitTestResult>
+    <UnitTestResult executionId="ca14beb3-b0f7-4e97-a22d-be84d91faefe" testId="748dc392-9274-c2c3-1136-a6594e65bcfb" testName="FindNonExistingAuthor" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca14beb3-b0f7-4e97-a22d-be84d91faefe">
+    </UnitTestResult>
+    <UnitTestResult executionId="9918a5af-2476-4900-8525-cea8dc986b88" testId="de8c182f-b223-ca86-caf8-d808945a3a91" testName="UnicodeAuthor" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9918a5af-2476-4900-8525-cea8dc986b88">
+    </UnitTestResult>
+    <UnitTestResult executionId="b3bb7891-b3cc-46d6-974d-a9ec446657fb" testId="7b3bd826-2935-d997-c1b7-02ca9a4a707a" testName="NullAuthor" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3bb7891-b3cc-46d6-974d-a9ec446657fb">
+    </UnitTestResult>
+    <UnitTestResult executionId="300f1232-0368-427e-80e2-910d96c88226" testId="7b94a73f-3b57-c3f4-7f9b-558acb4a87b2" testName="SpaceAuthor" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="300f1232-0368-427e-80e2-910d96c88226">
+    </UnitTestResult>
+    <UnitTestResult executionId="d2f40867-fc4f-46c9-8c69-51fd79ef7190" testId="ebe59462-0919-d773-41c7-20b1f87e0c62" testName="TabAuthor" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2f40867-fc4f-46c9-8c69-51fd79ef7190">
+    </UnitTestResult>
+    <UnitTestResult executionId="e5581be8-2f0d-4358-a904-1a0ee07cd3b5" testId="47c87be3-6997-cb09-ee47-e5831347fc33" testName="emptyAuthor" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5581be8-2f0d-4358-a904-1a0ee07cd3b5">
+    </UnitTestResult>
+    <UnitTestResult executionId="b94dcdaa-2082-4196-b490-5d8e616a5c61" testId="0dbc954f-88fa-593e-d914-26df3336519d" testName="AddNormalTitle" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b94dcdaa-2082-4196-b490-5d8e616a5c61">
+    </UnitTestResult>
+    <UnitTestResult executionId="bcf7f4d3-745a-4638-9f90-f36ffeb1d3bb" testId="6a24927b-311e-5ec4-afa3-631f4f3ed64f" testName="AddAlphanumericTitle" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bcf7f4d3-745a-4638-9f90-f36ffeb1d3bb">
+    </UnitTestResult>
+    <UnitTestResult executionId="e117a50a-b7e9-482e-bc70-114350da229a" testId="cf1bd0a7-ba2a-cfcf-0db4-f40cc25e59f3" testName="AddEmptyStringTitle" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e117a50a-b7e9-482e-bc70-114350da229a">
+    </UnitTestResult>
+    <UnitTestResult executionId="4c9b32d1-d718-4f6d-bb53-35ebfa5d3dcb" testId="c06afa71-2f07-770f-d397-6497f0861191" testName="AddNumericalTitle" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c9b32d1-d718-4f6d-bb53-35ebfa5d3dcb">
+    </UnitTestResult>
+    <UnitTestResult executionId="194ae345-832d-4dbe-b132-e8e1860895ee" testId="267a657e-ae23-c41f-c328-502483d45d28" testName="AddNullStringTitle" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="194ae345-832d-4dbe-b132-e8e1860895ee">
+    </UnitTestResult>
+    <UnitTestResult executionId="6888e84f-7cda-4e45-ba8a-e516bfd2aead" testId="2f7e5ec9-b761-a5a2-2844-4c787d4cec40" testName="AddNormalAuthor" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6888e84f-7cda-4e45-ba8a-e516bfd2aead">
+    </UnitTestResult>
+    <UnitTestResult executionId="9030188d-70cc-418f-84c7-860c3fa99991" testId="337dc798-7d3e-2e4d-9ce1-6ea363bf1ba8" testName="AddAlphanumericAuthor" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9030188d-70cc-418f-84c7-860c3fa99991">
+    </UnitTestResult>
+    <UnitTestResult executionId="e71c3151-4ab6-4e26-842a-3774d698e32a" testId="3dd49a30-2146-1b41-47f1-c0568797f0ad" testName="AddEmptyStringAuthor" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e71c3151-4ab6-4e26-842a-3774d698e32a">
+    </UnitTestResult>
+    <UnitTestResult executionId="a7bd84c4-1148-49d3-b47f-b775c3bff545" testId="78f4d1d3-be89-6485-aaa1-6c2e5551717a" testName="AddAuthorNumericalAuthor" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7bd84c4-1148-49d3-b47f-b775c3bff545">
+    </UnitTestResult>
+    <UnitTestResult executionId="df4f56c5-9ba9-46a4-8917-907d266b71f5" testId="392d1eb5-82bb-ac02-d5b1-27f1ba3ecee2" testName="AddAuthorNullStringAuthor" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df4f56c5-9ba9-46a4-8917-907d266b71f5">
+    </UnitTestResult>
+    <UnitTestResult executionId="58e58155-6d72-4b74-97ee-f8c89adc0e4c" testId="6b363e6b-6289-e0ea-3146-de3ddc6b3d24" testName="AddNormalYear" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58e58155-6d72-4b74-97ee-f8c89adc0e4c">
+    </UnitTestResult>
+    <UnitTestResult executionId="84292e34-1850-4acb-9e29-dfd6adb7a6a0" testId="4d7af9cf-d876-45d9-06be-1182d47cf877" testName="AddNegativeYear" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84292e34-1850-4acb-9e29-dfd6adb7a6a0">
+    </UnitTestResult>
+    <UnitTestResult executionId="69e55c8e-e4f3-4289-91ea-d8f2c5ae5d23" testId="8953ab0f-d9d6-7dc3-9fc6-6ca918d9894b" testName="AddMoreThanFourDigitYear" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69e55c8e-e4f3-4289-91ea-d8f2c5ae5d23">
+    </UnitTestResult>
+    <UnitTestResult executionId="8fe6bb63-026a-462a-b670-f889234ca625" testId="e6daca45-d31d-d05e-07d8-5d1d6e220219" testName="AddZeroYear" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8fe6bb63-026a-462a-b670-f889234ca625">
+    </UnitTestResult>
+    <UnitTestResult executionId="f4bdf4f3-4bae-4ff3-bd7d-5ddae7464a19" testId="4bea2438-3bd3-0aa0-a128-7c8e7bdf72c1" testName="AddNormalAbstract" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4bdf4f3-4bae-4ff3-bd7d-5ddae7464a19">
+    </UnitTestResult>
+    <UnitTestResult executionId="c97ddbee-9021-4d7b-969c-bee257ba63e1" testId="37aec174-09d0-ad29-f0c0-2cc14c27bb7d" testName="AddAlphanumericAbstract" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c97ddbee-9021-4d7b-969c-bee257ba63e1">
+    </UnitTestResult>
+    <UnitTestResult executionId="7e700df6-b8fd-4166-b275-84cac2ae2d03" testId="4e1971b5-00e6-253b-0f9f-05a2c882e771" testName="AddEmptyStringAbstract" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e700df6-b8fd-4166-b275-84cac2ae2d03">
+    </UnitTestResult>
+    <UnitTestResult executionId="f89d89ef-ddbb-41da-b83f-4e30cd185310" testId="1d291408-4667-3a4b-5dfb-c1aebbcb6af6" testName="AddNumericalAbstract" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f89d89ef-ddbb-41da-b83f-4e30cd185310">
+    </UnitTestResult>
+    <UnitTestResult executionId="06562816-d6ae-45ea-b549-6c869bb77294" testId="5277dbba-7428-9a5c-2cb4-92e09a85fdd0" testName="AddNullAbstract" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06562816-d6ae-45ea-b549-6c869bb77294">
+    </UnitTestResult>
+    <UnitTestResult executionId="c3ebf50d-e5fb-4168-9bb8-99c56e611782" testId="9834602e-83df-a9b9-5975-c498962fa4b4" testName="AddNormalUniqueKeyword" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3ebf50d-e5fb-4168-9bb8-99c56e611782">
+    </UnitTestResult>
+    <UnitTestResult executionId="4d2923e4-1709-452a-b6bd-987bba1cf583" testId="68889c4c-4f61-56af-303c-fa6434c9be48" testName="AddAlphanumericUniqueKeyword" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d2923e4-1709-452a-b6bd-987bba1cf583">
+    </UnitTestResult>
+    <UnitTestResult executionId="08bc3257-0ec1-41cd-abaa-6b653a0ba5d5" testId="854266d0-8eb4-f021-1b4e-cabb7a37e4e9" testName="RemoveNormalUniqueKeyword" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08bc3257-0ec1-41cd-abaa-6b653a0ba5d5">
+    </UnitTestResult>
+    <UnitTestResult executionId="003530d6-7fa9-4444-987c-04979df778bd" testId="a33351ea-6262-62cb-6e29-5d799198865f" testName="AddDuplicateKeyword" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="003530d6-7fa9-4444-987c-04979df778bd">
+    </UnitTestResult>
+    <UnitTestResult executionId="e777e6d0-f9a8-46ef-aea7-3187575dc243" testId="a78f5112-68fe-7337-9015-2fd177eb0e6e" testName="AddEmptyStringKeyword" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e777e6d0-f9a8-46ef-aea7-3187575dc243">
+    </UnitTestResult>
+    <UnitTestResult executionId="a0963bf7-f4f9-47b4-9b64-af6c2662c28f" testId="a3da25ba-3dfd-42b7-2d2b-f031c0bacd59" testName="AddNumericalKeyword" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0963bf7-f4f9-47b4-9b64-af6c2662c28f">
+    </UnitTestResult>
+    <UnitTestResult executionId="31f7f975-e329-4883-a089-47aff173507f" testId="248afc99-486e-4088-6a24-ffcee580f3a7" testName="AddNullStringKeyword" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31f7f975-e329-4883-a089-47aff173507f">
+    </UnitTestResult>
+    <UnitTestResult executionId="c1bd4a20-8181-4380-80f8-2668297fa9ed" testId="25cf3559-68a7-4c93-4725-e571ad02e3e7" testName="SearchNormal_ExistingKeyword_SinglePaper" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1bd4a20-8181-4380-80f8-2668297fa9ed">
+    </UnitTestResult>
+    <UnitTestResult executionId="b19f687c-ef50-4923-be08-82e9d0b5513f" testId="bb18676d-377c-a4ae-690a-6c4a8f00aa46" testName="SearchNormal_NonExistingKeyword" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b19f687c-ef50-4923-be08-82e9d0b5513f">
+    </UnitTestResult>
+    <UnitTestResult executionId="50e76437-34c1-4223-9599-fe0b7997684f" testId="78c22366-7126-37de-d3a3-f289174c28b4" testName="SearchNormal_ExistingKeyword_MultiplePapers" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50e76437-34c1-4223-9599-fe0b7997684f">
+    </UnitTestResult>
+    <UnitTestResult executionId="f17596f4-fbff-4fb1-a842-6dff698839de" testId="af484430-6570-c227-4a07-935cbbb409db" testName="SearchProblem_NullKeywordGiven" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f17596f4-fbff-4fb1-a842-6dff698839de">
+    </UnitTestResult>
+    <UnitTestResult executionId="018ac019-b881-44e2-a507-4a8433537923" testId="49657f0b-0389-ebf1-d8fe-4e4d913952c9" testName="SearchProblem_EmptyKeywordGiven" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="018ac019-b881-44e2-a507-4a8433537923">
+    </UnitTestResult>
+    <UnitTestResult executionId="f7db3617-908c-4cd1-830c-a9dd5c2d7ad2" testId="f88b0f97-6095-93ab-4570-ffad36b75fd0" testName="SearchProblem_EmptyDatabase" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7db3617-908c-4cd1-830c-a9dd5c2d7ad2">
+    </UnitTestResult>
+    <UnitTestResult executionId="1e128e9a-a934-46b3-9537-601743012f91" testId="b62d274e-24fb-61e6-6c74-6539a7114162" testName="SearchProblem_NullDatabase" computerName="HOWAIYUNG-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e128e9a-a934-46b3-9537-601743012f91">
+    </UnitTestResult>
+  </Results>
+</TestRun>
