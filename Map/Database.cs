@@ -402,9 +402,9 @@ namespace Map
             where to reference allPapers from.  Please change your code accordingly.
          
                                                                     -Ryan                           */
-        internal List<string> searchByAuthor(Database allPapers, string expectedAuthor)
+        /*internal List<string> searchByAuthor(Database allPapers, string expectedAuthor)
         {
             throw new NotImplementedException();
-        }
+        }*/
     }
 }
