@@ -16,8 +16,8 @@ namespace Map
 
         public Paper()
         {
-            
-            
+            authors = new List<string>();
+            keywords = new List<string>();
         }
 
         public void setAuthors()

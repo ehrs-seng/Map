@@ -1,4 +1,5 @@
 *.suo
+*.cs.orig
 
 [Bb]in/
 [Oo]bj/
