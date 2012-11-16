@@ -71,7 +71,7 @@ namespace Map
             Paper newpaper = new Paper();
             newpaper.setAuthor(author);
 
-            Assert.IsTrue(newpaper.getAuthor().Contains(author));
+            Assert.IsTrue(newpaper.getAuthors().Contains(author));
         }
 
         [TestMethod]
@@ -81,7 +81,7 @@ namespace Map
             Paper newpaper = new Paper();
             newpaper.setAuthor(author);
 
-            Assert.IsTrue(newpaper.getAuthor().Contains(author));
+            Assert.IsTrue(newpaper.getAuthors().Contains(author));
 
         }
 
@@ -93,7 +93,7 @@ namespace Map
             Paper newpaper = new Paper();
             newpaper.setAuthor(author);
 
-            Assert.IsTrue(newpaper.getAuthor().Contains(author));
+            Assert.IsTrue(newpaper.getAuthors().Contains(author));
         }
 
         [TestMethod]
@@ -104,7 +104,7 @@ namespace Map
             Paper newpaper = new Paper();
             newpaper.setAuthor(author);
 
-            Assert.IsTrue(newpaper.getAuthor().Contains(author));
+            Assert.IsTrue(newpaper.getAuthors().Contains(author));
         }
 
         [TestMethod]
@@ -115,7 +115,7 @@ namespace Map
             Paper newpaper = new Paper();
             newpaper.setAuthor(author);
 
-            Assert.IsTrue(newpaper.getAuthor().Contains(author));
+            Assert.IsTrue(newpaper.getAuthors().Contains(author));
         }
 
         //add year tests

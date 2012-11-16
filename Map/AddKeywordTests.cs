@@ -16,7 +16,7 @@ namespace Map
             Paper existingpaper = new Paper();
 
             existingpaper.addKeyword(expectedkeyword);
-            List<string> keywords = existingpaper.listKeywords();
+            List<string> keywords = existingpaper.getKeywords();
 
             string actual = keywords.Find(s => s.Equals(expectedkeyword));
             Assert.AreEqual(actual, expectedkeyword);        
@@ -30,7 +30,7 @@ namespace Map
             Paper existingpaper = new Paper();
 
             existingpaper.addKeyword(expectedkeyword);
-            List<String> keywords = existingpaper.listKeywords();
+            List<String> keywords = existingpaper.getKeywords();
 
             String actual = keywords.Find(s => s.Equals(expectedkeyword));
             Assert.AreEqual(actual, expectedkeyword);

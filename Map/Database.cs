@@ -60,10 +60,10 @@ namespace Map
             for (int i = 0; i < Database.getAllPapers(database).Count; i++)
             {
                 // scan through this paper's authors
-                for (int j = 0; j < Database.getAllPapers(database).ElementAt(i).listAuthors().Count; j++)
+                for (int j = 0; j < Database.getAllPapers(database).ElementAt(i).getAuthors().Count; j++)
                 {
                     // if a paper is found that matches the query, delete from the database
-                    if (string.Equals(Database.getAllPapers(database).ElementAt(i).listAuthors().ElementAt(j), expectedAuthor) == true)
+                    if (string.Equals(Database.getAllPapers(database).ElementAt(i).getAuthors().ElementAt(j), expectedAuthor) == true)
                     {
                         Database.getAllPapers(database).RemoveAt(i);
                         break;
@@ -93,10 +93,10 @@ namespace Map
             for (int i = 0; i < Database.getAllPapers(database).Count; i++)
             {
                 // scan through this paper's keywords
-                for (int j = 0; j < Database.getAllPapers(database).ElementAt(i).listKeywords().Count; j++)
+                for (int j = 0; j < Database.getAllPapers(database).ElementAt(i).getKeywords().Count; j++)
                 {
                     // if a paper is found that matches the query, delete from the database
-                    if (string.Equals(Database.getAllPapers(database).ElementAt(i).listKeywords().ElementAt(j), expectedKeyword) == true)
+                    if (string.Equals(Database.getAllPapers(database).ElementAt(i).getKeywords().ElementAt(j), expectedKeyword) == true)
                     {
                         Database.getAllPapers(database).RemoveAt(i);
                         break;
@@ -224,10 +224,10 @@ namespace Map
             for (int i = 0; i < Database.getAllPapers(database).Count; i++)
             {
                 // scan through this paper's authors
-                for (int j = 0; j < Database.getAllPapers(database).ElementAt(i).listAuthors().Count; j++)
+                for (int j = 0; j < Database.getAllPapers(database).ElementAt(i).getAuthors().Count; j++)
                 {
                     // if a paper is found that matches the query, add to result list
-                    if (string.Equals(Database.getAllPapers(database).ElementAt(i).listAuthors().ElementAt(j), expectedAuthor) == true)
+                    if (string.Equals(Database.getAllPapers(database).ElementAt(i).getAuthors().ElementAt(j), expectedAuthor) == true)
                     {
                         result.Add(Database.getAllPapers(database).ElementAt(i));
                         break;
@@ -256,13 +256,13 @@ namespace Map
             for (int i = 0; i < Database.getAllPapers(database).Count; i++)
             {
                 // scan through this paper's authors
-                for (int j = 0; j < Database.getAllPapers(database).ElementAt(i).listAuthors().Count; j++)
+                for (int j = 0; j < Database.getAllPapers(database).ElementAt(i).getAuthors().Count; j++)
                 {
                     // scan through queried authors
                     for (int k = 0; k < expectedAuthors.Count; k++)
                     {
                         // if a paper is found that matches the query, add to result list
-                        if (string.Equals(Database.getAllPapers(database).ElementAt(i).listAuthors().ElementAt(j),
+                        if (string.Equals(Database.getAllPapers(database).ElementAt(i).getAuthors().ElementAt(j),
                                             expectedAuthors.ElementAt(k)) == true)
                         {
                             result.Add(Database.getAllPapers(database).ElementAt(i));
@@ -296,10 +296,10 @@ namespace Map
             for (int i = 0; i < Database.getAllPapers(database).Count; i++)
             {
                 // scan through this paper's keywords
-                for (int j = 0; j < Database.getAllPapers(database).ElementAt(i).listKeywords().Count; j++)
+                for (int j = 0; j < Database.getAllPapers(database).ElementAt(i).getKeywords().Count; j++)
                 {
                     // if a paper is found that matches the query, add to result list
-                    if (string.Equals(Database.getAllPapers(database).ElementAt(i).listKeywords().ElementAt(j), expectedKeyword) == true)
+                    if (string.Equals(Database.getAllPapers(database).ElementAt(i).getKeywords().ElementAt(j), expectedKeyword) == true)
                     {
                         result.Add(Database.getAllPapers(database).ElementAt(i));
                         break;
@@ -328,13 +328,13 @@ namespace Map
             for (int i = 0; i < Database.getAllPapers(database).Count; i++)
             {
                 // scan through this paper's keywords
-                for (int j = 0; j < Database.getAllPapers(database).ElementAt(i).listKeywords().Count; j++)
+                for (int j = 0; j < Database.getAllPapers(database).ElementAt(i).getKeywords().Count; j++)
                 {
                     // scan through queried keywords
                     for (int k = 0; k < expectedKeywords.Count; k++)
                     {
                         // if a paper is found that matches the query, add to result list
-                        if (string.Equals(Database.getAllPapers(database).ElementAt(i).listKeywords().ElementAt(j),
+                        if (string.Equals(Database.getAllPapers(database).ElementAt(i).getKeywords().ElementAt(j),
                                             expectedKeywords.ElementAt(k)) == true)
                         {
                             result.Add(Database.getAllPapers(database).ElementAt(i));

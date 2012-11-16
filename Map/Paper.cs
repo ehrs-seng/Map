@@ -97,7 +97,7 @@ namespace Map
             return title;
         }
 
-        public List<string> getAuthor()
+        public List<string> getAuthors()
         {
             return authors;
         }
