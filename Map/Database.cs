@@ -395,5 +395,22 @@ namespace Map
             if (result.Count > 0) return result;
             else return null;
         }
+
+        public static List<string> getKeywordsByPapers(List<Paper> paperList)
+        {
+            List<string> keywordsList = new List<string>();
+            for(int i = 0; i<paperList.Count; i++)
+            {
+                List<string> keywords = paperList[i].getKeywords();
+                for (int j = 0; j < keywords.Count; j++)
+                {
+                    if (!keywordsList.Contains(keywords[j]))
+                    {
+                        keywordsList.Add(keywords[j]);
+                    }
+                }
+            }
+            return keywordsList;
+        }
     }
 }

@@ -45,16 +45,6 @@ namespace Map
             }
         }
 
-        public List<string> listKeywords()
-        {
-            return keywords;
-        }
-
-        public List<string> listAuthors()
-        {
-            return authors;
-        }
-
         public void setTitle(string expectedtitle)
         {
             if (expectedtitle == "") { throw new ArgumentException("Title must not be an empty string"); }
@@ -120,6 +110,11 @@ namespace Map
         public string getAbstract()
         {
             return paperabstract;
+        }
+
+        public List<string> getKeywords()
+        {
+            return keywords;
         }
     }
 }

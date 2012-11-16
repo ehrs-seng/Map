@@ -28,12 +28,7 @@ namespace Map
             List<String> actualKeywords = a.getAuthorKeywords(expectedAuthor);
             String actual = actualKeywords.Find(s => s == expectedKeyword);
             Assert.AreEqual(actualKeywords, expectedKeyword);
-
-            
-
         }
-
-        
 
         [TestMethod]
         public void FindPartialNumericalAuthor()
@@ -53,7 +48,6 @@ namespace Map
             List<String> actualKeywords = a.getAuthorKeywords(expectedAuthor);
             String actual = actualKeywords.Find(s => s == expectedKeyword);
             Assert.AreEqual(actualKeywords, expectedKeyword);
-
         }
 
         [TestMethod]
@@ -74,8 +68,6 @@ namespace Map
             List<String> actualKeywords = a.getAuthorKeywords(expectedAuthor);
             String actual = actualKeywords.Find(s => s == expectedKeyword);
             Assert.AreEqual(actualKeywords, expectedKeyword);
-
-
         }
 
         [TestMethod]
@@ -97,17 +89,9 @@ namespace Map
             List<String> actualKeywords = a.getAuthorKeywords(expectedAuthor);
             String actual = actualKeywords.Find(s => s == expectedKeyword);
             Assert.AreEqual(actualKeywords, expectedKeyword);
-
         }
 
-
-
-
-
-
-
-
-        [TestMethod]
+    [TestMethod]
         [ExpectedException(typeof(System.NullReferenceException), "Author has no keywords")]
         public void FindNoKeywordAuthor()
         {
@@ -126,9 +110,6 @@ namespace Map
             Assert.AreEqual(nonexistingKeywords, null);
         }
 
-
-
-
         [TestMethod]
         [ExpectedException(typeof(ArgumentException), "Author does not exist")]
         public void FindNonExistingAuthor()
@@ -139,7 +120,6 @@ namespace Map
             String expectedKeyword = "Fusion";
             a.addKeyword(expectedKeyword);
 
-
             //Check if the author names match
             List<String> actualAuthorList = a.getAuthors();
             String actualAuthor = actualAuthorList.Find(s => s == expectedAuthor);
@@ -149,9 +129,6 @@ namespace Map
             String nonExistingAuthor = "Mei Wang";
             String invalidAuthor = actualAuthorList.Find(s => s == nonExistingAuthor);
             Assert.AreEqual(invalidAuthor, null);
-
-          
-
         }
 
         [TestMethod]
@@ -163,7 +140,6 @@ namespace Map
             Author a = new Author(unicodeAuthor);
 
             List<String> keywords = a.listKeywords(unicodeAuthor);
-
         }
 
         [TestMethod]
@@ -183,8 +159,6 @@ namespace Map
             String spaceInputAuthor = "               ";
             Author a = new Author(spaceInputAuthor);
         }
-
-
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException), "Text field is empty")]
@@ -212,6 +186,5 @@ namespace Map
             String emptyInputAuthor = "\t \n \t";
             Author a = new Author(emptyInputAuthor);
         }
-
     }
 }
