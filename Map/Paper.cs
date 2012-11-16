@@ -7,6 +7,7 @@ namespace Map
 {
     class Paper
     {
+        private List<string> keywords;
         internal void addKeyword(string p)
         {
             //testing commit by adding this random useless comment... Ed.
@@ -43,6 +44,15 @@ namespace Map
             throw new NotImplementedException();
         }
 
+        internal void setKeywords(List<string> paperKeywords)
+        {
+
+            keywords = new List<String>();
+
+            keywords = paperKeywords;
+
+        }
+
         internal String getTitle()
         {
             throw new NotImplementedException();
@@ -61,6 +71,13 @@ namespace Map
         internal string getAbstract()
         {
             throw new NotImplementedException();
+        }
+
+        internal List<string> getKeywords()
+        {
+
+            return keywords;
+
         }
     }
 }

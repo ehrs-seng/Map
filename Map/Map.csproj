@@ -49,6 +49,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Author.cs" />
+    <Compile Include="searchKWbyA.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="FindKeywordByAuthorTests.cs">
       <SubType>Code</SubType>
