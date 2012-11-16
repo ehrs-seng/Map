@@ -8,6 +8,25 @@ namespace Map
     class Database
     {
         private List<Paper> allPapers = new List<Paper>();
+		
+		public Database()
+		{
+			allPapers = new List<Paper>();
+		}
+		
+		public Database(List<Paper> existingPapers)
+		{
+			allPapers = existingPapers;
+		}
+		
+		~Database()
+		{
+			for(int i = 0; i < allPapers.Count(); i++)
+			{
+				allPapers.ElementAt(i).clearPaper();
+			}
+			allPapers.Clear();
+		}
 
         internal static void addAuthorToPaperByDatabaseID(Database database, int existingID, string expectedAuthor)
         {
