@@ -90,16 +90,20 @@ namespace Map
             else return null;
         }
 
-        public static List<string> getKeywordsByPapers(List<Paper> paperList)
+        //this is a helper method for getKeywordsByAuthor
+        private static List<string> getKeywordsByPapers(List<Paper> paperList)
         {
+            //check if null
             if (paperList == null) return null;
 
+            //for all papers in the list, compile their keywords in a list
             List<string> keywordsList = new List<string>();
             for(int i = 0; i<paperList.Count; i++)
             {
                 List<string> keywords = paperList[i].getKeywords();
                 for (int j = 0; j < keywords.Count; j++)
                 {
+                    //checking if keyword is already in list
                     if (!keywordsList.Contains(keywords[j]))
                     {
                         keywordsList.Add(keywords[j]);
@@ -107,13 +111,16 @@ namespace Map
                 }
             }
 
+            //if list is empty return null
             if (keywordsList.Count == 0) return null;
             return keywordsList;
         }
 
         public static List<string> getKeywordsByAuthor(Database d, string author)
         {
+            //find papers by author
             List<Paper> papers = Database.searchByAuthor(d, author);
+            //compile list of keywords for those papers
             List<string> keywords = Database.getKeywordsByPapers(papers);
 
             return keywords;
