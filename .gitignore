@@ -9,3 +9,5 @@
 [Oo]bj/x86/Debug/
 
 TestResults/
+
+*.pdf

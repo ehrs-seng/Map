@@ -48,14 +48,16 @@
     <Compile Include="AddPaperTests.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Author.cs" />
+    <Compile Include="AssignPaperTests.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="FindKeywordByAuthorTests.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Paper.cs" />
+    <Compile Include="PrincipalInvestigator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AddKeywordTests.cs" />
+    <Compile Include="ResearchAssistant.cs" />
     <Compile Include="SearchPapersWKeywordTests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

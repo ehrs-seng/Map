@@ -8,12 +8,62 @@ namespace Map
     public class Database
     {
         private List<Paper> allPapers;
+        private List<ResearchAssistant> allResearchAssistants;
+        private List<PrincipalInvestigator> allPrincipalInvestigators;
 
         public Database()
         {
             allPapers = new List<Paper>();
+            allResearchAssistants = new List<ResearchAssistant>();
+            allPrincipalInvestigators = new List<PrincipalInvestigator>();
         }
 
+        public static void addResearchAssistant(Database database, ResearchAssistant ra)
+        {
+            // if arguments are null, return
+            if (database == null) return;
+            if (ra == null) return;
+
+            // if database doesn't contain this research assistant, add to database
+            if (database.allResearchAssistants.Contains(ra) == false)
+                database.allResearchAssistants.Add(ra);
+        }
+
+        public static List<ResearchAssistant> getResearchAssistants(Database database)
+        {
+            // if arguments are null, return
+            if (database == null) return null;
+
+            // if no research assistants, return null
+            if (database.allResearchAssistants.Count <= 0) return null;
+
+            // return this database's research assistants
+            return database.allResearchAssistants;
+        }
+
+        public static void addPrincipalInvestigator(Database database, PrincipalInvestigator pi)
+        {
+            // if arguments are null, return
+            if (database == null) return;
+            if (pi == null) return;
+
+            // if database doesn't contain this principal investigator, add to database
+            if (database.allPrincipalInvestigators.Contains(pi) == false)
+                database.allPrincipalInvestigators.Add(pi);
+        }
+
+        public static List<PrincipalInvestigator> getPrincipalInvestigators(Database database)
+        {
+            // if arguments are null, return
+            if (database == null) return null;
+
+            // if no principal investigators, return null
+            if (database.allPrincipalInvestigators.Count <= 0) return null;
+
+            // return this database's principal investigators
+            return database.allPrincipalInvestigators;
+        }
+        
         public static void addPaper(Database database, Paper existingPaper)
         {
             // verify that arguments are valid
@@ -125,6 +175,48 @@ namespace Map
 
             return keywords;
             
+        }
+
+        // CASE 4 IF IT IMPLIES GETTING ALL KEYWORDS IN EVERY PAPER IN DATABASE
+        public static List<string> getAllKeywordsInDatabase(Database d)
+        {
+            // allocate return list
+            List<string> allKeywords = new List<string>();
+
+            // scan through all papers in database
+            foreach (Paper p in getAllPapers(d))
+            {
+                // scan through all keywords in this paper
+                foreach (string keyword in p.getKeywords())
+                {
+                    // if return list does not contain this keyword, add it
+                    if (allKeywords.Contains(keyword) == false)
+                        allKeywords.Add(keyword);
+                }
+            }
+
+            // if return list is empty, return null.  Otherwise, return the keyword list
+            if (allKeywords.Count == 0) return null;
+            return allKeywords;
+        }
+
+        // CASE 4 IF IT IMPLIES GETTING ALL KEYWORDS IN A SINGLE PAPER
+        public static List<string> getAllKeywordsInPaper(Paper p)
+        {
+            // allocate return list
+            List<string> allKeywords = new List<string>();
+
+            // scan through all keywords in this paper
+            foreach (string keyword in p.getKeywords())
+            {
+                // if return list does not contain this keyword, add it
+                if (allKeywords.Contains(keyword) == false)
+                    allKeywords.Add(keyword);
+            }
+
+            // if return list is empty, return null.  Otherwise, return the keyword list
+            if (allKeywords.Count == 0) return null;
+            return allKeywords;
         }
     }
 }
